@@ -1,9 +1,9 @@
 Welcome to Sol-Framework!
 =========================
 
-Sol is a C++ framework that eases the creation of high-performance 2D games for iOS.
+<h4>Sol is a C++ framework that eases the creation of high-performance 2D games for iOS.</h4>
 
-PLEASE NOTE: This project is still under heavy development and may change significantly between releases.
+<b>PLEASE NOTE<b>: This project is still under heavy development and may change significantly between releases.
 
 It is a hobby project for my own pleasure and learning experience, so unless some kind soul volunteers to help out, updates will be made on my own schedule. I wrote this framework from scratch and by myself (except for the 3rd party libraries of course), so there are probably a number of bugs and issues. Suggestions and contributions are welcome! There are comments in the source to explain some things, but I am currently in the process of adding actual documentation and example code.
 
@@ -13,19 +13,19 @@ It should be simple enough to port, since it's written in C++11 using just a bit
 
 Uses the MIT license (see LICENSE for details)
 
-Features:
-Supports iPhone and iPad, including retina display
-Uses OpenGL ES 2.0
-Scenegraph to allow heirarchy of objects
-Batch rendering of sprites
-TTF font rendering
-Physics with chipmunk
-Smart resource manager avoids loading duplicates of resources
-Audio using ogg vorbis. Stream or load the whole file into memory
-TexturePacker integration for simple sprite sheet creation
+Features:<br/>
+Supports iPhone and iPad, including retina display<br/>
+Uses OpenGL ES 2.0<br/>
+Scenegraph to allow heirarchy of objects<br/>
+Batch rendering of sprites<br/>
+TTF font rendering<br/>
+Physics with chipmunk<br/>
+Smart resource manager avoids loading duplicates of resources<br/>
+Audio using ogg vorbis. Stream or load the whole file into memory<br/>
+TexturePacker integration for simple sprite sheet creation<br/>
 
-Plans for the future:
-Android
+Plans for the future:<br/>
+Android<br/>
 Networking
 
 Questions? Comments? Suggestions? Email me at gwthomas@berkeley.edu or join the Facebook page for discussion and announcements at http://www.facebook.com/solframework
