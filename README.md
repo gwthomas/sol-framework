@@ -14,19 +14,19 @@ It should be simple enough to port, since it's written in C++11 using just a bit
 Uses the MIT license (see LICENSE for details)
 
 Features:
--Supports iPhone and iPad, including retina display
--Uses OpenGL ES 2.0
--Scenegraph to allow heirarchy of objects
--Batch rendering of sprites
--TTF font rendering
--Physics with chipmunk
--Smart resource manager avoids loading duplicates of resources
--Audio using ogg vorbis. Stream or load the whole file into memory
--TexturePacker integration for simple sprite sheet creation
+Supports iPhone and iPad, including retina display
+Uses OpenGL ES 2.0
+Scenegraph to allow heirarchy of objects
+Batch rendering of sprites
+TTF font rendering
+Physics with chipmunk
+Smart resource manager avoids loading duplicates of resources
+Audio using ogg vorbis. Stream or load the whole file into memory
+TexturePacker integration for simple sprite sheet creation
 
 Plans for the future:
--Android
--Networking
+Android
+Networking
 
 Questions? Comments? Suggestions? Email me at gwthomas@berkeley.edu or join the Facebook page for discussion and announcements at http://www.facebook.com/solframework
 
