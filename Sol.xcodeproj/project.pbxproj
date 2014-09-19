@@ -1,0 +1,1441 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		68256ED119CA5301000CD701 /* Sol-Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = 68256ED019CA5301000CD701 /* Sol-Info.plist */; };
+		68256ED519CA546C000CD701 /* SolActionManager.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 68256ED319CA546C000CD701 /* SolActionManager.cpp */; };
+		68256ED819CA5590000CD701 /* SolRenderObject.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 68256ED619CA5590000CD701 /* SolRenderObject.cpp */; };
+		E0020C95173EB9AA00D7BA14 /* SolRenderComponents.cpp in Sources */ = {isa = PBXBuildFile; fileRef = E0020C94173EB9A900D7BA14 /* SolRenderComponents.cpp */; };
+		E0020C97173EBAAA00D7BA14 /* SolBufferObjects.cpp in Sources */ = {isa = PBXBuildFile; fileRef = E0020C96173EBAA500D7BA14 /* SolBufferObjects.cpp */; };
+		E0020C9B1740AB1400D7BA14 /* BlurTest.cpp in Sources */ = {isa = PBXBuildFile; fileRef = E0020C991740AB1400D7BA14 /* BlurTest.cpp */; };
+		E0020C9E1740B1F500D7BA14 /* hblur.vsh in Resources */ = {isa = PBXBuildFile; fileRef = E0020C9C1740B1B400D7BA14 /* hblur.vsh */; };
+		E0020CA417432A1B00D7BA14 /* sol_logo.png in Resources */ = {isa = PBXBuildFile; fileRef = E0020CA317432A1A00D7BA14 /* sol_logo.png */; };
+		E0020CA8174463B300D7BA14 /* SceneTest.cpp in Sources */ = {isa = PBXBuildFile; fileRef = E0020CA6174463B300D7BA14 /* SceneTest.cpp */; };
+		E0020CAD1749ECDF00D7BA14 /* SolFile.cpp in Sources */ = {isa = PBXBuildFile; fileRef = E0020CAC1749ECD700D7BA14 /* SolFile.cpp */; };
+		E0020CD9174DA84C00D7BA14 /* invert.fsh in Resources */ = {isa = PBXBuildFile; fileRef = E0020CD4174DA71000D7BA14 /* invert.fsh */; };
+		E00F80B016647B9700597D3D /* TouchTest.cpp in Sources */ = {isa = PBXBuildFile; fileRef = E00F80AE16647B9700597D3D /* TouchTest.cpp */; };
+		E01A006A1672E33300C964B2 /* SolAnimatedSprite.cpp in Sources */ = {isa = PBXBuildFile; fileRef = E01A00681672E33200C964B2 /* SolAnimatedSprite.cpp */; };
+		E01A006E1673FF5500C964B2 /* AnimationTest.cpp in Sources */ = {isa = PBXBuildFile; fileRef = E01A006C1673FF5500C964B2 /* AnimationTest.cpp */; };
+		E01A007016754AE000C964B2 /* SolSpriteBatch.cpp in Sources */ = {isa = PBXBuildFile; fileRef = E01A006F16754ADF00C964B2 /* SolSpriteBatch.cpp */; };
+		E01A00751675545E00C964B2 /* TextTest.cpp in Sources */ = {isa = PBXBuildFile; fileRef = E01A00731675545E00C964B2 /* TextTest.cpp */; };
+		E02702B417A9AFB20053F0A3 /* analysis.c in Sources */ = {isa = PBXBuildFile; fileRef = E027028517A9AFB20053F0A3 /* analysis.c */; };
+		E02702B517A9AFB20053F0A3 /* bitrate.c in Sources */ = {isa = PBXBuildFile; fileRef = E027028717A9AFB20053F0A3 /* bitrate.c */; };
+		E02702B617A9AFB20053F0A3 /* bitwise.c in Sources */ = {isa = PBXBuildFile; fileRef = E027028917A9AFB20053F0A3 /* bitwise.c */; };
+		E02702B717A9AFB20053F0A3 /* block.c in Sources */ = {isa = PBXBuildFile; fileRef = E027028A17A9AFB20053F0A3 /* block.c */; };
+		E02702B817A9AFB20053F0A3 /* codebook.c in Sources */ = {isa = PBXBuildFile; fileRef = E027028B17A9AFB20053F0A3 /* codebook.c */; };
+		E02702B917A9AFB20053F0A3 /* envelope.c in Sources */ = {isa = PBXBuildFile; fileRef = E027028F17A9AFB20053F0A3 /* envelope.c */; };
+		E02702BA17A9AFB20053F0A3 /* floor0.c in Sources */ = {isa = PBXBuildFile; fileRef = E027029117A9AFB20053F0A3 /* floor0.c */; };
+		E02702BB17A9AFB20053F0A3 /* floor1.c in Sources */ = {isa = PBXBuildFile; fileRef = E027029217A9AFB20053F0A3 /* floor1.c */; };
+		E02702BC17A9AFB20053F0A3 /* framing.c in Sources */ = {isa = PBXBuildFile; fileRef = E027029317A9AFB20053F0A3 /* framing.c */; };
+		E02702BD17A9AFB20053F0A3 /* info.c in Sources */ = {isa = PBXBuildFile; fileRef = E027029517A9AFB20053F0A3 /* info.c */; };
+		E02702BE17A9AFB20053F0A3 /* lookup.c in Sources */ = {isa = PBXBuildFile; fileRef = E027029617A9AFB20053F0A3 /* lookup.c */; };
+		E02702BF17A9AFB20053F0A3 /* lpc.c in Sources */ = {isa = PBXBuildFile; fileRef = E027029917A9AFB20053F0A3 /* lpc.c */; };
+		E02702C017A9AFB20053F0A3 /* lsp.c in Sources */ = {isa = PBXBuildFile; fileRef = E027029B17A9AFB20053F0A3 /* lsp.c */; };
+		E02702C117A9AFB20053F0A3 /* mapping0.c in Sources */ = {isa = PBXBuildFile; fileRef = E027029D17A9AFB20053F0A3 /* mapping0.c */; };
+		E02702C217A9AFB20053F0A3 /* mdct.c in Sources */ = {isa = PBXBuildFile; fileRef = E027029F17A9AFB20053F0A3 /* mdct.c */; };
+		E02702C317A9AFB20053F0A3 /* psy.c in Sources */ = {isa = PBXBuildFile; fileRef = E02702A517A9AFB20053F0A3 /* psy.c */; };
+		E02702C417A9AFB20053F0A3 /* registry.c in Sources */ = {isa = PBXBuildFile; fileRef = E02702A717A9AFB20053F0A3 /* registry.c */; };
+		E02702C517A9AFB20053F0A3 /* res0.c in Sources */ = {isa = PBXBuildFile; fileRef = E02702A917A9AFB20053F0A3 /* res0.c */; };
+		E02702C617A9AFB20053F0A3 /* sharedbook.c in Sources */ = {isa = PBXBuildFile; fileRef = E02702AB17A9AFB20053F0A3 /* sharedbook.c */; };
+		E02702C717A9AFB20053F0A3 /* smallft.c in Sources */ = {isa = PBXBuildFile; fileRef = E02702AC17A9AFB20053F0A3 /* smallft.c */; };
+		E02702C817A9AFB20053F0A3 /* synthesis.c in Sources */ = {isa = PBXBuildFile; fileRef = E02702AE17A9AFB20053F0A3 /* synthesis.c */; };
+		E02702C917A9AFB20053F0A3 /* vorbisfile.c in Sources */ = {isa = PBXBuildFile; fileRef = E02702B017A9AFB20053F0A3 /* vorbisfile.c */; };
+		E02702CA17A9AFB20053F0A3 /* window.c in Sources */ = {isa = PBXBuildFile; fileRef = E02702B217A9AFB20053F0A3 /* window.c */; };
+		E02702CF17A9B0190053F0A3 /* default_p.fsh in Resources */ = {isa = PBXBuildFile; fileRef = E02702CB17A9B0020053F0A3 /* default_p.fsh */; };
+		E02702D017A9B0190053F0A3 /* default_p.vsh in Resources */ = {isa = PBXBuildFile; fileRef = E02702CC17A9B0020053F0A3 /* default_p.vsh */; };
+		E02702D517A9B2BF0053F0A3 /* SolCircle.cpp in Sources */ = {isa = PBXBuildFile; fileRef = E02702D317A9B0BD0053F0A3 /* SolCircle.cpp */; };
+		E02705B717AB42310053F0A3 /* circle.fsh in Resources */ = {isa = PBXBuildFile; fileRef = E02705B517AB1F510053F0A3 /* circle.fsh */; };
+		E02705BF17AB8D140053F0A3 /* default_p_tc_c.fsh in Resources */ = {isa = PBXBuildFile; fileRef = E02705BB17AB8CFA0053F0A3 /* default_p_tc_c.fsh */; };
+		E02705C017AB8D160053F0A3 /* default_p_tc_c.vsh in Resources */ = {isa = PBXBuildFile; fileRef = E02705BC17AB8CFC0053F0A3 /* default_p_tc_c.vsh */; };
+		E02CD5D1161BC622006F0C1A /* SolFont.cpp in Sources */ = {isa = PBXBuildFile; fileRef = E02CD5CF161BC5E8006F0C1A /* SolFont.cpp */; };
+		E02CD5D41620F925006F0C1A /* SolMatrix.cpp in Sources */ = {isa = PBXBuildFile; fileRef = E02CD5D21620F919006F0C1A /* SolMatrix.cpp */; };
+		E02CD5DA16215997006F0C1A /* SolSceneNode.cpp in Sources */ = {isa = PBXBuildFile; fileRef = E02CD5D81621598B006F0C1A /* SolSceneNode.cpp */; };
+		E036D136142AA958000C440F /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = E036D135142AA958000C440F /* UIKit.framework */; };
+		E036D138142AA958000C440F /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = E036D137142AA958000C440F /* Foundation.framework */; };
+		E036D13C142AA958000C440F /* QuartzCore.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = E036D13B142AA958000C440F /* QuartzCore.framework */; };
+		E036D13E142AA958000C440F /* OpenGLES.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = E036D13D142AA958000C440F /* OpenGLES.framework */; };
+		E03D4C721783860900F12769 /* SolMultiSprite.cpp in Sources */ = {isa = PBXBuildFile; fileRef = E03D4C701783860900F12769 /* SolMultiSprite.cpp */; };
+		E03D4C75178399D100F12769 /* SolRenderTexture.cpp in Sources */ = {isa = PBXBuildFile; fileRef = E03D4C73178399D100F12769 /* SolRenderTexture.cpp */; };
+		E05D3EAA1723834D000CBE53 /* SolAction.cpp in Sources */ = {isa = PBXBuildFile; fileRef = E05D3EA81723834C000CBE53 /* SolAction.cpp */; };
+		E05D3EAE172386B0000CBE53 /* ActionTest.cpp in Sources */ = {isa = PBXBuildFile; fileRef = E05D3EAC172386B0000CBE53 /* ActionTest.cpp */; };
+		E05D3EE51724F497000CBE53 /* SolTexture.cpp in Sources */ = {isa = PBXBuildFile; fileRef = E05D3EE31724F491000CBE53 /* SolTexture.cpp */; };
+		E05D3EE91725724D000CBE53 /* TextureAtlasTest.cpp in Sources */ = {isa = PBXBuildFile; fileRef = E05D3EE71725724D000CBE53 /* TextureAtlasTest.cpp */; };
+		E07961CB14B1367A00874D2A /* OpenAL.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = E07961C714B1364E00874D2A /* OpenAL.framework */; };
+		E08535A8173340430012447F /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = E085359E173340430012447F /* InfoPlist.strings */; };
+		E08535A9173340430012447F /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = E08535A0173340430012447F /* main.m */; };
+		E08535AB173340430012447F /* SolAppDelegate.mm in Sources */ = {isa = PBXBuildFile; fileRef = E08535A4173340430012447F /* SolAppDelegate.mm */; };
+		E08535AC173340430012447F /* SolGLView.mm in Sources */ = {isa = PBXBuildFile; fileRef = E08535A6173340430012447F /* SolGLView.mm */; };
+		E08535AD173340430012447F /* SolNative.mm in Sources */ = {isa = PBXBuildFile; fileRef = E08535A7173340430012447F /* SolNative.mm */; };
+		E08535C31733404F0012447F /* arial-rounded.ttf in Resources */ = {isa = PBXBuildFile; fileRef = E08535AF1733404F0012447F /* arial-rounded.ttf */; };
+		E08535C51733404F0012447F /* background.ogg in Resources */ = {isa = PBXBuildFile; fileRef = E08535B11733404F0012447F /* background.ogg */; };
+		E08535C61733404F0012447F /* Default-568h@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = E08535B21733404F0012447F /* Default-568h@2x.png */; };
+		E08535C71733404F0012447F /* DownButton.png in Resources */ = {isa = PBXBuildFile; fileRef = E08535B31733404F0012447F /* DownButton.png */; };
+		E08535C81733404F0012447F /* DroidSans.ttf in Resources */ = {isa = PBXBuildFile; fileRef = E08535B41733404F0012447F /* DroidSans.ttf */; };
+		E08535C91733404F0012447F /* Dude.png in Resources */ = {isa = PBXBuildFile; fileRef = E08535B51733404F0012447F /* Dude.png */; };
+		E08535CA1733404F0012447F /* Dude@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = E08535B61733404F0012447F /* Dude@2x.png */; };
+		E08535CC1733404F0012447F /* laserpowerup.ogg in Resources */ = {isa = PBXBuildFile; fileRef = E08535B81733404F0012447F /* laserpowerup.ogg */; };
+		E08535CD1733404F0012447F /* LeftButton.png in Resources */ = {isa = PBXBuildFile; fileRef = E08535B91733404F0012447F /* LeftButton.png */; };
+		E08535CE1733404F0012447F /* Moon.png in Resources */ = {isa = PBXBuildFile; fileRef = E08535BA1733404F0012447F /* Moon.png */; };
+		E08535CF1733404F0012447F /* Particle.png in Resources */ = {isa = PBXBuildFile; fileRef = E08535BB1733404F0012447F /* Particle.png */; };
+		E08535D01733404F0012447F /* RightButton.png in Resources */ = {isa = PBXBuildFile; fileRef = E08535BC1733404F0012447F /* RightButton.png */; };
+		E08535D11733404F0012447F /* SolSprites.json in Resources */ = {isa = PBXBuildFile; fileRef = E08535BD1733404F0012447F /* SolSprites.json */; };
+		E08535D21733404F0012447F /* SolSprites.png in Resources */ = {isa = PBXBuildFile; fileRef = E08535BE1733404F0012447F /* SolSprites.png */; };
+		E08535D31733404F0012447F /* SolSprites.tps in Resources */ = {isa = PBXBuildFile; fileRef = E08535BF1733404F0012447F /* SolSprites.tps */; };
+		E08535D41733404F0012447F /* SolSprites.xml in Resources */ = {isa = PBXBuildFile; fileRef = E08535C01733404F0012447F /* SolSprites.xml */; };
+		E08535D51733404F0012447F /* Sun.png in Resources */ = {isa = PBXBuildFile; fileRef = E08535C11733404F0012447F /* Sun.png */; };
+		E08535D61733404F0012447F /* UpButton.png in Resources */ = {isa = PBXBuildFile; fileRef = E08535C21733404F0012447F /* UpButton.png */; };
+		E087EA75178008ED002A663B /* FilterTest.cpp in Sources */ = {isa = PBXBuildFile; fileRef = E087EA73178008ED002A663B /* FilterTest.cpp */; };
+		E087EA7A178009A4002A663B /* greyscale.fsh in Resources */ = {isa = PBXBuildFile; fileRef = E087EA7617800990002A663B /* greyscale.fsh */; };
+		E087EA801780F190002A663B /* vblur.vsh in Resources */ = {isa = PBXBuildFile; fileRef = E087EA7C1780E9CB002A663B /* vblur.vsh */; };
+		E087EA811780F190002A663B /* blur.fsh in Resources */ = {isa = PBXBuildFile; fileRef = E087EA7E1780E9D8002A663B /* blur.fsh */; };
+		E087EA8717821EC3002A663B /* toon.fsh in Resources */ = {isa = PBXBuildFile; fileRef = E087EA8417821E29002A663B /* toon.fsh */; };
+		E087EA8F17825626002A663B /* SolParticleSystem.cpp in Sources */ = {isa = PBXBuildFile; fileRef = E087EA8E17825626002A663B /* SolParticleSystem.cpp */; };
+		E087EA921782A865002A663B /* emboss.fsh in Resources */ = {isa = PBXBuildFile; fileRef = E087EA901782A6F6002A663B /* emboss.fsh */; };
+		E08D075C178378F20041DFAC /* multitex_multiply.fsh in Resources */ = {isa = PBXBuildFile; fileRef = E08D075B178378F20041DFAC /* multitex_multiply.fsh */; };
+		E08D0760178379A80041DFAC /* MultitexTest.cpp in Sources */ = {isa = PBXBuildFile; fileRef = E08D075E178379A80041DFAC /* MultitexTest.cpp */; };
+		E0912F7318FA532B0027CACD /* SolResourceManager.cpp in Sources */ = {isa = PBXBuildFile; fileRef = E0912F7118FA52150027CACD /* SolResourceManager.cpp */; };
+		E0912F7418FA533E0027CACD /* SolInputManager.cpp in Sources */ = {isa = PBXBuildFile; fileRef = E0912F6618FA514A0027CACD /* SolInputManager.cpp */; };
+		E0912F7718FA53A30027CACD /* SolViewController.mm in Sources */ = {isa = PBXBuildFile; fileRef = E0912F7618FA53910027CACD /* SolViewController.mm */; };
+		E0912F7A18FA53F20027CACD /* SolCanvas.cpp in Sources */ = {isa = PBXBuildFile; fileRef = E0912F7818FA53F10027CACD /* SolCanvas.cpp */; };
+		E0912F7E18FA66870027CACD /* CanvasTest.cpp in Sources */ = {isa = PBXBuildFile; fileRef = E0912F7C18FA66870027CACD /* CanvasTest.cpp */; };
+		E09C865B17C9917B00BB7D86 /* testapp.cpp in Sources */ = {isa = PBXBuildFile; fileRef = E09C865A17C9917B00BB7D86 /* testapp.cpp */; };
+		E0A05B0D171BE216009177BD /* SolBody.cpp in Sources */ = {isa = PBXBuildFile; fileRef = E0A05B06171BE216009177BD /* SolBody.cpp */; };
+		E0A05B0E171BE216009177BD /* SolConstraint.cpp in Sources */ = {isa = PBXBuildFile; fileRef = E0A05B08171BE216009177BD /* SolConstraint.cpp */; };
+		E0A05B0F171BE216009177BD /* SolShape.cpp in Sources */ = {isa = PBXBuildFile; fileRef = E0A05B0A171BE216009177BD /* SolShape.cpp */; };
+		E0A05B16171CFFAD009177BD /* SolSpace.cpp in Sources */ = {isa = PBXBuildFile; fileRef = E0A05B15171CFFAD009177BD /* SolSpace.cpp */; };
+		E0A05B19171E5F2E009177BD /* SolAnimation.cpp in Sources */ = {isa = PBXBuildFile; fileRef = E0A05B18171E5F28009177BD /* SolAnimation.cpp */; };
+		E0A05B1B171E64B2009177BD /* SolScene.cpp in Sources */ = {isa = PBXBuildFile; fileRef = E0A05B1A171E64AA009177BD /* SolScene.cpp */; };
+		E0A05B1D171E6762009177BD /* SolTouchable.cpp in Sources */ = {isa = PBXBuildFile; fileRef = E0A05B1C171E675D009177BD /* SolTouchable.cpp */; };
+		E0A7D6A615F198CE009D8CC0 /* PhysicsTest.cpp in Sources */ = {isa = PBXBuildFile; fileRef = E0A7D6A115F198CE009D8CC0 /* PhysicsTest.cpp */; };
+		E0A7D6A715F198CE009D8CC0 /* Test.cpp in Sources */ = {isa = PBXBuildFile; fileRef = E0A7D6A415F198CE009D8CC0 /* Test.cpp */; };
+		E0A7D70415F198D6009D8CC0 /* SolAudio.cpp in Sources */ = {isa = PBXBuildFile; fileRef = E0A7D6B115F198D6009D8CC0 /* SolAudio.cpp */; };
+		E0A7D70715F198D6009D8CC0 /* SolGradient.cpp in Sources */ = {isa = PBXBuildFile; fileRef = E0A7D6BB15F198D6009D8CC0 /* SolGradient.cpp */; };
+		E0A7D70815F198D6009D8CC0 /* SolImage.cpp in Sources */ = {isa = PBXBuildFile; fileRef = E0A7D6BD15F198D6009D8CC0 /* SolImage.cpp */; };
+		E0A7D70915F198D6009D8CC0 /* SolLabel.cpp in Sources */ = {isa = PBXBuildFile; fileRef = E0A7D6BF15F198D6009D8CC0 /* SolLabel.cpp */; };
+		E0A7D70B15F198D6009D8CC0 /* SolManager.cpp in Sources */ = {isa = PBXBuildFile; fileRef = E0A7D6C315F198D6009D8CC0 /* SolManager.cpp */; };
+		E0A7D71015F198D6009D8CC0 /* SolRenderer.cpp in Sources */ = {isa = PBXBuildFile; fileRef = E0A7D6CE15F198D6009D8CC0 /* SolRenderer.cpp */; };
+		E0A7D71415F198D6009D8CC0 /* SolSprite.cpp in Sources */ = {isa = PBXBuildFile; fileRef = E0A7D6D615F198D6009D8CC0 /* SolSprite.cpp */; };
+		E0A7D81115F198F0009D8CC0 /* chipmunk.c in Sources */ = {isa = PBXBuildFile; fileRef = E0A7D76315F198EF009D8CC0 /* chipmunk.c */; };
+		E0A7D81215F198F0009D8CC0 /* cpConstraint.c in Sources */ = {isa = PBXBuildFile; fileRef = E0A7D76A15F198EF009D8CC0 /* cpConstraint.c */; };
+		E0A7D81315F198F0009D8CC0 /* cpDampedRotarySpring.c in Sources */ = {isa = PBXBuildFile; fileRef = E0A7D76C15F198EF009D8CC0 /* cpDampedRotarySpring.c */; };
+		E0A7D81415F198F0009D8CC0 /* cpDampedSpring.c in Sources */ = {isa = PBXBuildFile; fileRef = E0A7D76E15F198EF009D8CC0 /* cpDampedSpring.c */; };
+		E0A7D81515F198F0009D8CC0 /* cpGearJoint.c in Sources */ = {isa = PBXBuildFile; fileRef = E0A7D77015F198EF009D8CC0 /* cpGearJoint.c */; };
+		E0A7D81615F198F0009D8CC0 /* cpGrooveJoint.c in Sources */ = {isa = PBXBuildFile; fileRef = E0A7D77215F198EF009D8CC0 /* cpGrooveJoint.c */; };
+		E0A7D81715F198F0009D8CC0 /* cpPinJoint.c in Sources */ = {isa = PBXBuildFile; fileRef = E0A7D77415F198EF009D8CC0 /* cpPinJoint.c */; };
+		E0A7D81815F198F0009D8CC0 /* cpPivotJoint.c in Sources */ = {isa = PBXBuildFile; fileRef = E0A7D77615F198EF009D8CC0 /* cpPivotJoint.c */; };
+		E0A7D81915F198F0009D8CC0 /* cpRatchetJoint.c in Sources */ = {isa = PBXBuildFile; fileRef = E0A7D77815F198EF009D8CC0 /* cpRatchetJoint.c */; };
+		E0A7D81A15F198F0009D8CC0 /* cpRotaryLimitJoint.c in Sources */ = {isa = PBXBuildFile; fileRef = E0A7D77A15F198EF009D8CC0 /* cpRotaryLimitJoint.c */; };
+		E0A7D81B15F198F0009D8CC0 /* cpSimpleMotor.c in Sources */ = {isa = PBXBuildFile; fileRef = E0A7D77C15F198EF009D8CC0 /* cpSimpleMotor.c */; };
+		E0A7D81C15F198F0009D8CC0 /* cpSlideJoint.c in Sources */ = {isa = PBXBuildFile; fileRef = E0A7D77E15F198EF009D8CC0 /* cpSlideJoint.c */; };
+		E0A7D81D15F198F0009D8CC0 /* cpArbiter.c in Sources */ = {isa = PBXBuildFile; fileRef = E0A7D78115F198EF009D8CC0 /* cpArbiter.c */; };
+		E0A7D81E15F198F0009D8CC0 /* cpArray.c in Sources */ = {isa = PBXBuildFile; fileRef = E0A7D78315F198EF009D8CC0 /* cpArray.c */; };
+		E0A7D81F15F198F0009D8CC0 /* cpBB.c in Sources */ = {isa = PBXBuildFile; fileRef = E0A7D78415F198EF009D8CC0 /* cpBB.c */; };
+		E0A7D82015F198F0009D8CC0 /* cpBBTree.c in Sources */ = {isa = PBXBuildFile; fileRef = E0A7D78615F198EF009D8CC0 /* cpBBTree.c */; };
+		E0A7D82115F198F0009D8CC0 /* cpBody.c in Sources */ = {isa = PBXBuildFile; fileRef = E0A7D78715F198EF009D8CC0 /* cpBody.c */; };
+		E0A7D82215F198F0009D8CC0 /* cpCollision.c in Sources */ = {isa = PBXBuildFile; fileRef = E0A7D78915F198EF009D8CC0 /* cpCollision.c */; };
+		E0A7D82315F198F0009D8CC0 /* cpHashSet.c in Sources */ = {isa = PBXBuildFile; fileRef = E0A7D78A15F198EF009D8CC0 /* cpHashSet.c */; };
+		E0A7D82415F198F0009D8CC0 /* cpPolyShape.c in Sources */ = {isa = PBXBuildFile; fileRef = E0A7D78B15F198EF009D8CC0 /* cpPolyShape.c */; };
+		E0A7D82515F198F0009D8CC0 /* cpShape.c in Sources */ = {isa = PBXBuildFile; fileRef = E0A7D78D15F198EF009D8CC0 /* cpShape.c */; };
+		E0A7D82615F198F0009D8CC0 /* cpSpace.c in Sources */ = {isa = PBXBuildFile; fileRef = E0A7D78F15F198EF009D8CC0 /* cpSpace.c */; };
+		E0A7D82715F198F0009D8CC0 /* cpSpaceComponent.c in Sources */ = {isa = PBXBuildFile; fileRef = E0A7D79115F198EF009D8CC0 /* cpSpaceComponent.c */; };
+		E0A7D82815F198F0009D8CC0 /* cpSpaceHash.c in Sources */ = {isa = PBXBuildFile; fileRef = E0A7D79215F198EF009D8CC0 /* cpSpaceHash.c */; };
+		E0A7D82915F198F0009D8CC0 /* cpSpaceQuery.c in Sources */ = {isa = PBXBuildFile; fileRef = E0A7D79315F198EF009D8CC0 /* cpSpaceQuery.c */; };
+		E0A7D82A15F198F0009D8CC0 /* cpSpaceStep.c in Sources */ = {isa = PBXBuildFile; fileRef = E0A7D79415F198EF009D8CC0 /* cpSpaceStep.c */; };
+		E0A7D82B15F198F0009D8CC0 /* cpSpatialIndex.c in Sources */ = {isa = PBXBuildFile; fileRef = E0A7D79515F198EF009D8CC0 /* cpSpatialIndex.c */; };
+		E0A7D82C15F198F0009D8CC0 /* cpSweep1D.c in Sources */ = {isa = PBXBuildFile; fileRef = E0A7D79715F198EF009D8CC0 /* cpSweep1D.c */; };
+		E0A7D82D15F198F0009D8CC0 /* cpVect.c in Sources */ = {isa = PBXBuildFile; fileRef = E0A7D79815F198EF009D8CC0 /* cpVect.c */; };
+		E0A7D82F15F198F0009D8CC0 /* stb_image.c in Sources */ = {isa = PBXBuildFile; fileRef = E0A7D79F15F198EF009D8CC0 /* stb_image.c */; };
+		E0A7D83015F198F0009D8CC0 /* stb_truetype.c in Sources */ = {isa = PBXBuildFile; fileRef = E0A7D7A115F198EF009D8CC0 /* stb_truetype.c */; };
+		E0A85119166083ED003F71C5 /* default_p_c.vsh in Resources */ = {isa = PBXBuildFile; fileRef = E0D9DB1D1605907B004A99B7 /* default_p_c.vsh */; };
+		E0A8511A166083ED003F71C5 /* default_p_c.fsh in Resources */ = {isa = PBXBuildFile; fileRef = E0D9DB1F16059088004A99B7 /* default_p_c.fsh */; };
+		E0A8511B166083ED003F71C5 /* default_p_tc.vsh in Resources */ = {isa = PBXBuildFile; fileRef = E0D9DB1215FDB38F004A99B7 /* default_p_tc.vsh */; };
+		E0A8511C166083ED003F71C5 /* default_p_tc.fsh in Resources */ = {isa = PBXBuildFile; fileRef = E0D9DB1415FDB39C004A99B7 /* default_p_tc.fsh */; };
+		E0A8511D166083ED003F71C5 /* particle.vsh in Resources */ = {isa = PBXBuildFile; fileRef = E0D9DB2816059A0C004A99B7 /* particle.vsh */; };
+		E0A8511E166083ED003F71C5 /* particle.fsh in Resources */ = {isa = PBXBuildFile; fileRef = E0D9DB2A16059A19004A99B7 /* particle.fsh */; };
+		E0A851571661727C003F71C5 /* SolTextureAtlas.cpp in Sources */ = {isa = PBXBuildFile; fileRef = E0A8515516617276003F71C5 /* SolTextureAtlas.cpp */; };
+		E0BC8E6A1717BF790037FBBD /* SolQuad.cpp in Sources */ = {isa = PBXBuildFile; fileRef = E0BC8E691717BF780037FBBD /* SolQuad.cpp */; };
+		E0BC8E6C1717C17F0037FBBD /* SolRenderable.cpp in Sources */ = {isa = PBXBuildFile; fileRef = E0BC8E6B1717C17E0037FBBD /* SolRenderable.cpp */; };
+		E0C873DB1654C94E00920A66 /* AudioTest.cpp in Sources */ = {isa = PBXBuildFile; fileRef = E0C873D91654C94E00920A66 /* AudioTest.cpp */; };
+		E0D9DB1715FDB5BD004A99B7 /* SolProgram.cpp in Sources */ = {isa = PBXBuildFile; fileRef = E0D9DB1615FDB5B9004A99B7 /* SolProgram.cpp */; };
+		E0E66A83177F774F00B02FBF /* stb_vorbis.c in Sources */ = {isa = PBXBuildFile; fileRef = E0E66A82177F774F00B02FBF /* stb_vorbis.c */; };
+		E0E66A8C177F910800B02FBF /* SolBlur.cpp in Sources */ = {isa = PBXBuildFile; fileRef = E0E66A86177F910800B02FBF /* SolBlur.cpp */; };
+		E0E66A8E177F910800B02FBF /* SolFilter.cpp in Sources */ = {isa = PBXBuildFile; fileRef = E0E66A8A177F910800B02FBF /* SolFilter.cpp */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		68256ED019CA5301000CD701 /* Sol-Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = "Sol-Info.plist"; sourceTree = "<group>"; };
+		68256ED219CA5314000CD701 /* Sol-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "Sol-Prefix.pch"; sourceTree = "<group>"; };
+		68256ED319CA546C000CD701 /* SolActionManager.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = SolActionManager.cpp; sourceTree = "<group>"; };
+		68256ED419CA546C000CD701 /* SolActionManager.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SolActionManager.h; sourceTree = "<group>"; };
+		68256ED619CA5590000CD701 /* SolRenderObject.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = SolRenderObject.cpp; sourceTree = "<group>"; };
+		68256ED719CA5590000CD701 /* SolRenderObject.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SolRenderObject.h; sourceTree = "<group>"; };
+		E0020C94173EB9A900D7BA14 /* SolRenderComponents.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = SolRenderComponents.cpp; sourceTree = "<group>"; };
+		E0020C96173EBAA500D7BA14 /* SolBufferObjects.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = SolBufferObjects.cpp; sourceTree = "<group>"; };
+		E0020C991740AB1400D7BA14 /* BlurTest.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = BlurTest.cpp; sourceTree = "<group>"; };
+		E0020C9A1740AB1400D7BA14 /* BlurTest.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = BlurTest.h; sourceTree = "<group>"; };
+		E0020C9C1740B1B400D7BA14 /* hblur.vsh */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.glsl; path = hblur.vsh; sourceTree = "<group>"; };
+		E0020CA317432A1A00D7BA14 /* sol_logo.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = sol_logo.png; sourceTree = "<group>"; };
+		E0020CA6174463B300D7BA14 /* SceneTest.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = SceneTest.cpp; sourceTree = "<group>"; };
+		E0020CA7174463B300D7BA14 /* SceneTest.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SceneTest.h; sourceTree = "<group>"; };
+		E0020CAA1749E78D00D7BA14 /* SolFile.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SolFile.h; sourceTree = "<group>"; };
+		E0020CAC1749ECD700D7BA14 /* SolFile.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = SolFile.cpp; sourceTree = "<group>"; };
+		E0020CD4174DA71000D7BA14 /* invert.fsh */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.glsl; path = invert.fsh; sourceTree = "<group>"; };
+		E00F80AE16647B9700597D3D /* TouchTest.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = TouchTest.cpp; sourceTree = "<group>"; };
+		E00F80AF16647B9700597D3D /* TouchTest.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TouchTest.h; sourceTree = "<group>"; };
+		E01A00661672E00200C964B2 /* SolAnimation.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SolAnimation.h; sourceTree = "<group>"; };
+		E01A00681672E33200C964B2 /* SolAnimatedSprite.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = SolAnimatedSprite.cpp; sourceTree = "<group>"; };
+		E01A00691672E33300C964B2 /* SolAnimatedSprite.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SolAnimatedSprite.h; sourceTree = "<group>"; };
+		E01A006C1673FF5500C964B2 /* AnimationTest.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = AnimationTest.cpp; sourceTree = "<group>"; };
+		E01A006D1673FF5500C964B2 /* AnimationTest.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AnimationTest.h; sourceTree = "<group>"; };
+		E01A006F16754ADF00C964B2 /* SolSpriteBatch.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = SolSpriteBatch.cpp; sourceTree = "<group>"; };
+		E01A00731675545E00C964B2 /* TextTest.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = TextTest.cpp; sourceTree = "<group>"; };
+		E01A00741675545E00C964B2 /* TextTest.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TextTest.h; sourceTree = "<group>"; };
+		E02581B21767C7120093520E /* SolTouch.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = SolTouch.h; sourceTree = "<group>"; };
+		E027028517A9AFB20053F0A3 /* analysis.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; path = analysis.c; sourceTree = "<group>"; };
+		E027028617A9AFB20053F0A3 /* backends.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = backends.h; sourceTree = "<group>"; };
+		E027028717A9AFB20053F0A3 /* bitrate.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; path = bitrate.c; sourceTree = "<group>"; };
+		E027028817A9AFB20053F0A3 /* bitrate.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = bitrate.h; sourceTree = "<group>"; };
+		E027028917A9AFB20053F0A3 /* bitwise.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; path = bitwise.c; sourceTree = "<group>"; };
+		E027028A17A9AFB20053F0A3 /* block.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; path = block.c; sourceTree = "<group>"; };
+		E027028B17A9AFB20053F0A3 /* codebook.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; path = codebook.c; sourceTree = "<group>"; };
+		E027028C17A9AFB20053F0A3 /* codebook.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = codebook.h; sourceTree = "<group>"; };
+		E027028D17A9AFB20053F0A3 /* codec.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = codec.h; sourceTree = "<group>"; };
+		E027028E17A9AFB20053F0A3 /* codec_internal.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = codec_internal.h; sourceTree = "<group>"; };
+		E027028F17A9AFB20053F0A3 /* envelope.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; path = envelope.c; sourceTree = "<group>"; };
+		E027029017A9AFB20053F0A3 /* envelope.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = envelope.h; sourceTree = "<group>"; };
+		E027029117A9AFB20053F0A3 /* floor0.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; path = floor0.c; sourceTree = "<group>"; };
+		E027029217A9AFB20053F0A3 /* floor1.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; path = floor1.c; sourceTree = "<group>"; };
+		E027029317A9AFB20053F0A3 /* framing.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; path = framing.c; sourceTree = "<group>"; };
+		E027029417A9AFB20053F0A3 /* highlevel.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = highlevel.h; sourceTree = "<group>"; };
+		E027029517A9AFB20053F0A3 /* info.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; path = info.c; sourceTree = "<group>"; };
+		E027029617A9AFB20053F0A3 /* lookup.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; path = lookup.c; sourceTree = "<group>"; };
+		E027029717A9AFB20053F0A3 /* lookup.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = lookup.h; sourceTree = "<group>"; };
+		E027029817A9AFB20053F0A3 /* lookup_data.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = lookup_data.h; sourceTree = "<group>"; };
+		E027029917A9AFB20053F0A3 /* lpc.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; path = lpc.c; sourceTree = "<group>"; };
+		E027029A17A9AFB20053F0A3 /* lpc.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = lpc.h; sourceTree = "<group>"; };
+		E027029B17A9AFB20053F0A3 /* lsp.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; path = lsp.c; sourceTree = "<group>"; };
+		E027029C17A9AFB20053F0A3 /* lsp.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = lsp.h; sourceTree = "<group>"; };
+		E027029D17A9AFB20053F0A3 /* mapping0.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; path = mapping0.c; sourceTree = "<group>"; };
+		E027029E17A9AFB20053F0A3 /* masking.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = masking.h; sourceTree = "<group>"; };
+		E027029F17A9AFB20053F0A3 /* mdct.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; path = mdct.c; sourceTree = "<group>"; };
+		E02702A017A9AFB20053F0A3 /* mdct.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = mdct.h; sourceTree = "<group>"; };
+		E02702A117A9AFB20053F0A3 /* misc.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = misc.h; sourceTree = "<group>"; };
+		E02702A217A9AFB20053F0A3 /* ogg.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ogg.h; sourceTree = "<group>"; };
+		E02702A317A9AFB20053F0A3 /* os.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = os.h; sourceTree = "<group>"; };
+		E02702A417A9AFB20053F0A3 /* os_types.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = os_types.h; sourceTree = "<group>"; };
+		E02702A517A9AFB20053F0A3 /* psy.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; path = psy.c; sourceTree = "<group>"; };
+		E02702A617A9AFB20053F0A3 /* psy.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = psy.h; sourceTree = "<group>"; };
+		E02702A717A9AFB20053F0A3 /* registry.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; path = registry.c; sourceTree = "<group>"; };
+		E02702A817A9AFB20053F0A3 /* registry.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = registry.h; sourceTree = "<group>"; };
+		E02702A917A9AFB20053F0A3 /* res0.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; path = res0.c; sourceTree = "<group>"; };
+		E02702AA17A9AFB20053F0A3 /* scales.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = scales.h; sourceTree = "<group>"; };
+		E02702AB17A9AFB20053F0A3 /* sharedbook.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; path = sharedbook.c; sourceTree = "<group>"; };
+		E02702AC17A9AFB20053F0A3 /* smallft.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; path = smallft.c; sourceTree = "<group>"; };
+		E02702AD17A9AFB20053F0A3 /* smallft.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = smallft.h; sourceTree = "<group>"; };
+		E02702AE17A9AFB20053F0A3 /* synthesis.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; path = synthesis.c; sourceTree = "<group>"; };
+		E02702AF17A9AFB20053F0A3 /* vorbisenc.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = vorbisenc.h; sourceTree = "<group>"; };
+		E02702B017A9AFB20053F0A3 /* vorbisfile.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; path = vorbisfile.c; sourceTree = "<group>"; };
+		E02702B117A9AFB20053F0A3 /* vorbisfile.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = vorbisfile.h; sourceTree = "<group>"; };
+		E02702B217A9AFB20053F0A3 /* window.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; path = window.c; sourceTree = "<group>"; };
+		E02702B317A9AFB20053F0A3 /* window.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = window.h; sourceTree = "<group>"; };
+		E02702CB17A9B0020053F0A3 /* default_p.fsh */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.glsl; path = default_p.fsh; sourceTree = "<group>"; };
+		E02702CC17A9B0020053F0A3 /* default_p.vsh */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.glsl; path = default_p.vsh; sourceTree = "<group>"; };
+		E02702D117A9B0330053F0A3 /* SolArbiter.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = SolArbiter.cpp; sourceTree = "<group>"; };
+		E02702D217A9B0330053F0A3 /* SolArbiter.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = SolArbiter.h; sourceTree = "<group>"; };
+		E02702D317A9B0BD0053F0A3 /* SolCircle.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = SolCircle.cpp; sourceTree = "<group>"; };
+		E02702D417A9B0BD0053F0A3 /* SolCircle.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = SolCircle.h; sourceTree = "<group>"; };
+		E02705B517AB1F510053F0A3 /* circle.fsh */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.glsl; path = circle.fsh; sourceTree = "<group>"; };
+		E02705BB17AB8CFA0053F0A3 /* default_p_tc_c.fsh */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.glsl; path = default_p_tc_c.fsh; sourceTree = "<group>"; };
+		E02705BC17AB8CFC0053F0A3 /* default_p_tc_c.vsh */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.glsl; path = default_p_tc_c.vsh; sourceTree = "<group>"; };
+		E02CD5CF161BC5E8006F0C1A /* SolFont.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = SolFont.cpp; sourceTree = "<group>"; };
+		E02CD5D0161BC5ED006F0C1A /* SolFont.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = SolFont.h; sourceTree = "<group>"; };
+		E02CD5D21620F919006F0C1A /* SolMatrix.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = SolMatrix.cpp; sourceTree = "<group>"; };
+		E02CD5D31620F91F006F0C1A /* SolMatrix.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SolMatrix.h; sourceTree = "<group>"; };
+		E02CD5D81621598B006F0C1A /* SolSceneNode.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = SolSceneNode.cpp; sourceTree = "<group>"; };
+		E02CD5D916215991006F0C1A /* SolSceneNode.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SolSceneNode.h; sourceTree = "<group>"; };
+		E036D135142AA958000C440F /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
+		E036D137142AA958000C440F /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+		E036D13B142AA958000C440F /* QuartzCore.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = QuartzCore.framework; path = System/Library/Frameworks/QuartzCore.framework; sourceTree = SDKROOT; };
+		E036D13D142AA958000C440F /* OpenGLES.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = OpenGLES.framework; path = System/Library/Frameworks/OpenGLES.framework; sourceTree = SDKROOT; };
+		E03D4C701783860900F12769 /* SolMultiSprite.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = SolMultiSprite.cpp; sourceTree = "<group>"; };
+		E03D4C711783860900F12769 /* SolMultiSprite.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SolMultiSprite.h; sourceTree = "<group>"; };
+		E03D4C73178399D100F12769 /* SolRenderTexture.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = SolRenderTexture.cpp; sourceTree = "<group>"; };
+		E03D4C74178399D100F12769 /* SolRenderTexture.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SolRenderTexture.h; sourceTree = "<group>"; };
+		E04A3DA91640F1E30038ED28 /* SolSpriteBatch.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = SolSpriteBatch.h; sourceTree = "<group>"; };
+		E05D3EA717221BFC000CBE53 /* SolConfig.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = SolConfig.h; sourceTree = "<group>"; };
+		E05D3EA81723834C000CBE53 /* SolAction.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = SolAction.cpp; sourceTree = "<group>"; };
+		E05D3EA91723834D000CBE53 /* SolAction.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SolAction.h; sourceTree = "<group>"; };
+		E05D3EAC172386B0000CBE53 /* ActionTest.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = ActionTest.cpp; sourceTree = "<group>"; };
+		E05D3EAD172386B0000CBE53 /* ActionTest.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ActionTest.h; sourceTree = "<group>"; };
+		E05D3EE31724F491000CBE53 /* SolTexture.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = SolTexture.cpp; sourceTree = "<group>"; };
+		E05D3EE41724F494000CBE53 /* SolTexture.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SolTexture.h; sourceTree = "<group>"; };
+		E05D3EE71725724D000CBE53 /* TextureAtlasTest.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = TextureAtlasTest.cpp; sourceTree = "<group>"; };
+		E05D3EE81725724D000CBE53 /* TextureAtlasTest.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TextureAtlasTest.h; sourceTree = "<group>"; };
+		E07961C714B1364E00874D2A /* OpenAL.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = OpenAL.framework; path = System/Library/Frameworks/OpenAL.framework; sourceTree = SDKROOT; };
+		E07FC5AE14A2DC4500C80901 /* Sol.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Sol.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		E085359F173340430012447F /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		E08535A0173340430012447F /* main.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		E08535A3173340430012447F /* SolAppDelegate.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SolAppDelegate.h; sourceTree = "<group>"; };
+		E08535A4173340430012447F /* SolAppDelegate.mm */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.objcpp; path = SolAppDelegate.mm; sourceTree = "<group>"; };
+		E08535A5173340430012447F /* SolGLView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SolGLView.h; sourceTree = "<group>"; };
+		E08535A6173340430012447F /* SolGLView.mm */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.objcpp; path = SolGLView.mm; sourceTree = "<group>"; };
+		E08535A7173340430012447F /* SolNative.mm */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.objcpp; path = SolNative.mm; sourceTree = "<group>"; };
+		E08535AF1733404F0012447F /* arial-rounded.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "arial-rounded.ttf"; sourceTree = "<group>"; };
+		E08535B11733404F0012447F /* background.ogg */ = {isa = PBXFileReference; lastKnownFileType = file; path = background.ogg; sourceTree = "<group>"; };
+		E08535B21733404F0012447F /* Default-568h@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Default-568h@2x.png"; sourceTree = "<group>"; };
+		E08535B31733404F0012447F /* DownButton.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = DownButton.png; sourceTree = "<group>"; };
+		E08535B41733404F0012447F /* DroidSans.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = DroidSans.ttf; sourceTree = "<group>"; };
+		E08535B51733404F0012447F /* Dude.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Dude.png; sourceTree = "<group>"; };
+		E08535B61733404F0012447F /* Dude@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Dude@2x.png"; sourceTree = "<group>"; };
+		E08535B81733404F0012447F /* laserpowerup.ogg */ = {isa = PBXFileReference; lastKnownFileType = file; path = laserpowerup.ogg; sourceTree = "<group>"; };
+		E08535B91733404F0012447F /* LeftButton.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = LeftButton.png; sourceTree = "<group>"; };
+		E08535BA1733404F0012447F /* Moon.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Moon.png; sourceTree = "<group>"; };
+		E08535BB1733404F0012447F /* Particle.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Particle.png; sourceTree = "<group>"; };
+		E08535BC1733404F0012447F /* RightButton.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = RightButton.png; sourceTree = "<group>"; };
+		E08535BD1733404F0012447F /* SolSprites.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = SolSprites.json; sourceTree = "<group>"; };
+		E08535BE1733404F0012447F /* SolSprites.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = SolSprites.png; sourceTree = "<group>"; };
+		E08535BF1733404F0012447F /* SolSprites.tps */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.xml; path = SolSprites.tps; sourceTree = "<group>"; };
+		E08535C01733404F0012447F /* SolSprites.xml */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.xml; path = SolSprites.xml; sourceTree = "<group>"; };
+		E08535C11733404F0012447F /* Sun.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Sun.png; sourceTree = "<group>"; };
+		E08535C21733404F0012447F /* UpButton.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = UpButton.png; sourceTree = "<group>"; };
+		E087EA73178008ED002A663B /* FilterTest.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = FilterTest.cpp; sourceTree = "<group>"; };
+		E087EA74178008ED002A663B /* FilterTest.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FilterTest.h; sourceTree = "<group>"; };
+		E087EA7617800990002A663B /* greyscale.fsh */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.glsl; path = greyscale.fsh; sourceTree = "<group>"; };
+		E087EA7C1780E9CB002A663B /* vblur.vsh */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.glsl; path = vblur.vsh; sourceTree = "<group>"; };
+		E087EA7E1780E9D8002A663B /* blur.fsh */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.glsl; path = blur.fsh; sourceTree = "<group>"; };
+		E087EA8417821E29002A663B /* toon.fsh */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.glsl; path = toon.fsh; sourceTree = "<group>"; };
+		E087EA8E17825626002A663B /* SolParticleSystem.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = SolParticleSystem.cpp; sourceTree = "<group>"; };
+		E087EA901782A6F6002A663B /* emboss.fsh */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.glsl; path = emboss.fsh; sourceTree = "<group>"; };
+		E08D075B178378F20041DFAC /* multitex_multiply.fsh */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.glsl; path = multitex_multiply.fsh; sourceTree = "<group>"; };
+		E08D075E178379A80041DFAC /* MultitexTest.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = MultitexTest.cpp; sourceTree = "<group>"; };
+		E08D075F178379A80041DFAC /* MultitexTest.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MultitexTest.h; sourceTree = "<group>"; };
+		E0912F6618FA514A0027CACD /* SolInputManager.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = SolInputManager.cpp; sourceTree = "<group>"; };
+		E0912F6718FA514A0027CACD /* SolInputManager.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = SolInputManager.h; sourceTree = "<group>"; };
+		E0912F6818FA516B0027CACD /* SolIntersection.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = SolIntersection.cpp; sourceTree = "<group>"; };
+		E0912F6918FA516B0027CACD /* SolIntersection.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = SolIntersection.h; sourceTree = "<group>"; };
+		E0912F6A18FA517D0027CACD /* SolAdManager.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = SolAdManager.cpp; sourceTree = "<group>"; };
+		E0912F6B18FA517D0027CACD /* SolAdManager.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = SolAdManager.h; sourceTree = "<group>"; };
+		E0912F6C18FA518F0027CACD /* SolCounter.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = SolCounter.h; sourceTree = "<group>"; };
+		E0912F6D18FA51A80027CACD /* SolGradientBatch.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = SolGradientBatch.cpp; sourceTree = "<group>"; };
+		E0912F6E18FA51A80027CACD /* SolGradientBatch.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = SolGradientBatch.h; sourceTree = "<group>"; };
+		E0912F6F18FA51DF0027CACD /* SolLine.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = SolLine.cpp; sourceTree = "<group>"; };
+		E0912F7018FA51DF0027CACD /* SolLine.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = SolLine.h; sourceTree = "<group>"; };
+		E0912F7118FA52150027CACD /* SolResourceManager.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = SolResourceManager.cpp; sourceTree = "<group>"; };
+		E0912F7218FA52150027CACD /* SolResourceManager.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = SolResourceManager.h; sourceTree = "<group>"; };
+		E0912F7518FA53910027CACD /* SolViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = SolViewController.h; sourceTree = "<group>"; };
+		E0912F7618FA53910027CACD /* SolViewController.mm */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.objcpp; path = SolViewController.mm; sourceTree = "<group>"; };
+		E0912F7818FA53F10027CACD /* SolCanvas.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = SolCanvas.cpp; sourceTree = "<group>"; };
+		E0912F7918FA53F20027CACD /* SolCanvas.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SolCanvas.h; sourceTree = "<group>"; };
+		E0912F7C18FA66870027CACD /* CanvasTest.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = CanvasTest.cpp; sourceTree = "<group>"; };
+		E0912F7D18FA66870027CACD /* CanvasTest.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CanvasTest.h; sourceTree = "<group>"; };
+		E09C865A17C9917B00BB7D86 /* testapp.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = testapp.cpp; sourceTree = "<group>"; };
+		E0A05B06171BE216009177BD /* SolBody.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = SolBody.cpp; sourceTree = "<group>"; };
+		E0A05B07171BE216009177BD /* SolBody.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SolBody.h; sourceTree = "<group>"; };
+		E0A05B08171BE216009177BD /* SolConstraint.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = SolConstraint.cpp; sourceTree = "<group>"; };
+		E0A05B09171BE216009177BD /* SolConstraint.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SolConstraint.h; sourceTree = "<group>"; };
+		E0A05B0A171BE216009177BD /* SolShape.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = SolShape.cpp; sourceTree = "<group>"; };
+		E0A05B0B171BE216009177BD /* SolShape.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SolShape.h; sourceTree = "<group>"; };
+		E0A05B0C171BE216009177BD /* SolSpace.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SolSpace.h; sourceTree = "<group>"; };
+		E0A05B15171CFFAD009177BD /* SolSpace.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = SolSpace.cpp; sourceTree = "<group>"; };
+		E0A05B18171E5F28009177BD /* SolAnimation.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = SolAnimation.cpp; sourceTree = "<group>"; };
+		E0A05B1A171E64AA009177BD /* SolScene.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = SolScene.cpp; sourceTree = "<group>"; };
+		E0A05B1C171E675D009177BD /* SolTouchable.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = SolTouchable.cpp; sourceTree = "<group>"; };
+		E0A05B1E171F68ED009177BD /* SolPhysicsScene.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = SolPhysicsScene.h; sourceTree = "<group>"; };
+		E0A7D6A115F198CE009D8CC0 /* PhysicsTest.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = PhysicsTest.cpp; sourceTree = "<group>"; };
+		E0A7D6A215F198CE009D8CC0 /* PhysicsTest.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = PhysicsTest.h; sourceTree = "<group>"; };
+		E0A7D6A415F198CE009D8CC0 /* Test.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = Test.cpp; sourceTree = "<group>"; };
+		E0A7D6A515F198CE009D8CC0 /* Test.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Test.h; sourceTree = "<group>"; };
+		E0A7D6AA15F198D6009D8CC0 /* SolAABB.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SolAABB.h; sourceTree = "<group>"; };
+		E0A7D6B115F198D6009D8CC0 /* SolAudio.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = SolAudio.cpp; sourceTree = "<group>"; };
+		E0A7D6B215F198D6009D8CC0 /* SolAudio.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SolAudio.h; sourceTree = "<group>"; };
+		E0A7D6B515F198D6009D8CC0 /* SolColor.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SolColor.h; sourceTree = "<group>"; };
+		E0A7D6BA15F198D6009D8CC0 /* SolFileBuffer.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SolFileBuffer.h; sourceTree = "<group>"; };
+		E0A7D6BB15F198D6009D8CC0 /* SolGradient.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = SolGradient.cpp; sourceTree = "<group>"; };
+		E0A7D6BC15F198D6009D8CC0 /* SolGradient.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SolGradient.h; sourceTree = "<group>"; };
+		E0A7D6BD15F198D6009D8CC0 /* SolImage.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = SolImage.cpp; sourceTree = "<group>"; };
+		E0A7D6BE15F198D6009D8CC0 /* SolImage.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SolImage.h; sourceTree = "<group>"; };
+		E0A7D6BF15F198D6009D8CC0 /* SolLabel.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = SolLabel.cpp; sourceTree = "<group>"; };
+		E0A7D6C015F198D6009D8CC0 /* SolLabel.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SolLabel.h; sourceTree = "<group>"; };
+		E0A7D6C315F198D6009D8CC0 /* SolManager.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = SolManager.cpp; sourceTree = "<group>"; };
+		E0A7D6C415F198D6009D8CC0 /* SolManager.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SolManager.h; sourceTree = "<group>"; };
+		E0A7D6C515F198D6009D8CC0 /* SolNative.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SolNative.h; sourceTree = "<group>"; };
+		E0A7D6C715F198D6009D8CC0 /* SolParticleSystem.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SolParticleSystem.h; sourceTree = "<group>"; };
+		E0A7D6C915F198D6009D8CC0 /* SolQuad.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SolQuad.h; sourceTree = "<group>"; };
+		E0A7D6CB15F198D6009D8CC0 /* SolRenderable.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SolRenderable.h; sourceTree = "<group>"; };
+		E0A7D6CE15F198D6009D8CC0 /* SolRenderer.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = SolRenderer.cpp; sourceTree = "<group>"; };
+		E0A7D6CF15F198D6009D8CC0 /* SolRenderer.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SolRenderer.h; sourceTree = "<group>"; };
+		E0A7D6D515F198D6009D8CC0 /* SolScene.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SolScene.h; sourceTree = "<group>"; };
+		E0A7D6D615F198D6009D8CC0 /* SolSprite.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = SolSprite.cpp; sourceTree = "<group>"; };
+		E0A7D6D715F198D6009D8CC0 /* SolSprite.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SolSprite.h; sourceTree = "<group>"; };
+		E0A7D6DD15F198D6009D8CC0 /* SolTouchable.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SolTouchable.h; sourceTree = "<group>"; };
+		E0A7D6E815F198D6009D8CC0 /* SolUtil.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SolUtil.h; sourceTree = "<group>"; };
+		E0A7D6E915F198D6009D8CC0 /* SolVec.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SolVec.h; sourceTree = "<group>"; };
+		E0A7D6F715F198D6009D8CC0 /* SolApplication.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SolApplication.h; sourceTree = "<group>"; };
+		E0A7D76315F198EF009D8CC0 /* chipmunk.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; path = chipmunk.c; sourceTree = "<group>"; };
+		E0A7D76415F198EF009D8CC0 /* chipmunk.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = chipmunk.h; sourceTree = "<group>"; };
+		E0A7D76515F198EF009D8CC0 /* chipmunk_ffi.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = chipmunk_ffi.h; sourceTree = "<group>"; };
+		E0A7D76615F198EF009D8CC0 /* chipmunk_private.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = chipmunk_private.h; sourceTree = "<group>"; };
+		E0A7D76715F198EF009D8CC0 /* chipmunk_types.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = chipmunk_types.h; sourceTree = "<group>"; };
+		E0A7D76815F198EF009D8CC0 /* chipmunk_unsafe.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = chipmunk_unsafe.h; sourceTree = "<group>"; };
+		E0A7D76A15F198EF009D8CC0 /* cpConstraint.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; path = cpConstraint.c; sourceTree = "<group>"; };
+		E0A7D76B15F198EF009D8CC0 /* cpConstraint.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = cpConstraint.h; sourceTree = "<group>"; };
+		E0A7D76C15F198EF009D8CC0 /* cpDampedRotarySpring.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; path = cpDampedRotarySpring.c; sourceTree = "<group>"; };
+		E0A7D76D15F198EF009D8CC0 /* cpDampedRotarySpring.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = cpDampedRotarySpring.h; sourceTree = "<group>"; };
+		E0A7D76E15F198EF009D8CC0 /* cpDampedSpring.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; path = cpDampedSpring.c; sourceTree = "<group>"; };
+		E0A7D76F15F198EF009D8CC0 /* cpDampedSpring.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = cpDampedSpring.h; sourceTree = "<group>"; };
+		E0A7D77015F198EF009D8CC0 /* cpGearJoint.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; path = cpGearJoint.c; sourceTree = "<group>"; };
+		E0A7D77115F198EF009D8CC0 /* cpGearJoint.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = cpGearJoint.h; sourceTree = "<group>"; };
+		E0A7D77215F198EF009D8CC0 /* cpGrooveJoint.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; path = cpGrooveJoint.c; sourceTree = "<group>"; };
+		E0A7D77315F198EF009D8CC0 /* cpGrooveJoint.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = cpGrooveJoint.h; sourceTree = "<group>"; };
+		E0A7D77415F198EF009D8CC0 /* cpPinJoint.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; path = cpPinJoint.c; sourceTree = "<group>"; };
+		E0A7D77515F198EF009D8CC0 /* cpPinJoint.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = cpPinJoint.h; sourceTree = "<group>"; };
+		E0A7D77615F198EF009D8CC0 /* cpPivotJoint.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; path = cpPivotJoint.c; sourceTree = "<group>"; };
+		E0A7D77715F198EF009D8CC0 /* cpPivotJoint.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = cpPivotJoint.h; sourceTree = "<group>"; };
+		E0A7D77815F198EF009D8CC0 /* cpRatchetJoint.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; path = cpRatchetJoint.c; sourceTree = "<group>"; };
+		E0A7D77915F198EF009D8CC0 /* cpRatchetJoint.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = cpRatchetJoint.h; sourceTree = "<group>"; };
+		E0A7D77A15F198EF009D8CC0 /* cpRotaryLimitJoint.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; path = cpRotaryLimitJoint.c; sourceTree = "<group>"; };
+		E0A7D77B15F198EF009D8CC0 /* cpRotaryLimitJoint.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = cpRotaryLimitJoint.h; sourceTree = "<group>"; };
+		E0A7D77C15F198EF009D8CC0 /* cpSimpleMotor.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; path = cpSimpleMotor.c; sourceTree = "<group>"; };
+		E0A7D77D15F198EF009D8CC0 /* cpSimpleMotor.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = cpSimpleMotor.h; sourceTree = "<group>"; };
+		E0A7D77E15F198EF009D8CC0 /* cpSlideJoint.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; path = cpSlideJoint.c; sourceTree = "<group>"; };
+		E0A7D77F15F198EF009D8CC0 /* cpSlideJoint.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = cpSlideJoint.h; sourceTree = "<group>"; };
+		E0A7D78015F198EF009D8CC0 /* util.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = util.h; sourceTree = "<group>"; };
+		E0A7D78115F198EF009D8CC0 /* cpArbiter.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; path = cpArbiter.c; sourceTree = "<group>"; };
+		E0A7D78215F198EF009D8CC0 /* cpArbiter.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = cpArbiter.h; sourceTree = "<group>"; };
+		E0A7D78315F198EF009D8CC0 /* cpArray.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; path = cpArray.c; sourceTree = "<group>"; };
+		E0A7D78415F198EF009D8CC0 /* cpBB.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; path = cpBB.c; sourceTree = "<group>"; };
+		E0A7D78515F198EF009D8CC0 /* cpBB.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = cpBB.h; sourceTree = "<group>"; };
+		E0A7D78615F198EF009D8CC0 /* cpBBTree.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; path = cpBBTree.c; sourceTree = "<group>"; };
+		E0A7D78715F198EF009D8CC0 /* cpBody.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; path = cpBody.c; sourceTree = "<group>"; };
+		E0A7D78815F198EF009D8CC0 /* cpBody.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = cpBody.h; sourceTree = "<group>"; };
+		E0A7D78915F198EF009D8CC0 /* cpCollision.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; path = cpCollision.c; sourceTree = "<group>"; };
+		E0A7D78A15F198EF009D8CC0 /* cpHashSet.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; path = cpHashSet.c; sourceTree = "<group>"; };
+		E0A7D78B15F198EF009D8CC0 /* cpPolyShape.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; path = cpPolyShape.c; sourceTree = "<group>"; };
+		E0A7D78C15F198EF009D8CC0 /* cpPolyShape.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = cpPolyShape.h; sourceTree = "<group>"; };
+		E0A7D78D15F198EF009D8CC0 /* cpShape.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; path = cpShape.c; sourceTree = "<group>"; };
+		E0A7D78E15F198EF009D8CC0 /* cpShape.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = cpShape.h; sourceTree = "<group>"; };
+		E0A7D78F15F198EF009D8CC0 /* cpSpace.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; path = cpSpace.c; sourceTree = "<group>"; };
+		E0A7D79015F198EF009D8CC0 /* cpSpace.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = cpSpace.h; sourceTree = "<group>"; };
+		E0A7D79115F198EF009D8CC0 /* cpSpaceComponent.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; path = cpSpaceComponent.c; sourceTree = "<group>"; };
+		E0A7D79215F198EF009D8CC0 /* cpSpaceHash.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; path = cpSpaceHash.c; sourceTree = "<group>"; };
+		E0A7D79315F198EF009D8CC0 /* cpSpaceQuery.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; path = cpSpaceQuery.c; sourceTree = "<group>"; };
+		E0A7D79415F198EF009D8CC0 /* cpSpaceStep.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; path = cpSpaceStep.c; sourceTree = "<group>"; };
+		E0A7D79515F198EF009D8CC0 /* cpSpatialIndex.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; path = cpSpatialIndex.c; sourceTree = "<group>"; };
+		E0A7D79615F198EF009D8CC0 /* cpSpatialIndex.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = cpSpatialIndex.h; sourceTree = "<group>"; };
+		E0A7D79715F198EF009D8CC0 /* cpSweep1D.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; path = cpSweep1D.c; sourceTree = "<group>"; };
+		E0A7D79815F198EF009D8CC0 /* cpVect.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; path = cpVect.c; sourceTree = "<group>"; };
+		E0A7D79915F198EF009D8CC0 /* cpVect.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = cpVect.h; sourceTree = "<group>"; };
+		E0A7D79A15F198EF009D8CC0 /* prime.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = prime.h; sourceTree = "<group>"; };
+		E0A7D79F15F198EF009D8CC0 /* stb_image.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; path = stb_image.c; sourceTree = "<group>"; };
+		E0A7D7A015F198EF009D8CC0 /* stb_image.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = stb_image.h; sourceTree = "<group>"; };
+		E0A7D7A115F198EF009D8CC0 /* stb_truetype.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; path = stb_truetype.c; sourceTree = "<group>"; };
+		E0A7D7A215F198EF009D8CC0 /* stb_truetype.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = stb_truetype.h; sourceTree = "<group>"; };
+		E0A7D86715F59F76009D8CC0 /* SolGL.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = SolGL.h; sourceTree = "<group>"; };
+		E0A851511661723E003F71C5 /* rapidxml.hpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.h; path = rapidxml.hpp; sourceTree = "<group>"; };
+		E0A851521661723E003F71C5 /* rapidxml_iterators.hpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.h; path = rapidxml_iterators.hpp; sourceTree = "<group>"; };
+		E0A851531661723E003F71C5 /* rapidxml_print.hpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.h; path = rapidxml_print.hpp; sourceTree = "<group>"; };
+		E0A851541661723E003F71C5 /* rapidxml_utils.hpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.h; path = rapidxml_utils.hpp; sourceTree = "<group>"; };
+		E0A8515516617276003F71C5 /* SolTextureAtlas.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = SolTextureAtlas.cpp; sourceTree = "<group>"; };
+		E0A8515616617279003F71C5 /* SolTextureAtlas.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SolTextureAtlas.h; sourceTree = "<group>"; };
+		E0A8515C16619284003F71C5 /* SolXML.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = SolXML.h; sourceTree = "<group>"; };
+		E0AC0CB8160EA8860082A6CF /* SolRenderComponents.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = SolRenderComponents.h; sourceTree = "<group>"; };
+		E0BC8E691717BF780037FBBD /* SolQuad.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = SolQuad.cpp; sourceTree = "<group>"; };
+		E0BC8E6B1717C17E0037FBBD /* SolRenderable.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = SolRenderable.cpp; sourceTree = "<group>"; };
+		E0C873D91654C94E00920A66 /* AudioTest.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = AudioTest.cpp; sourceTree = "<group>"; };
+		E0C873DA1654C94E00920A66 /* AudioTest.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AudioTest.h; sourceTree = "<group>"; };
+		E0D9DB1015FDAC70004A99B7 /* SolShader.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = SolShader.h; sourceTree = "<group>"; };
+		E0D9DB1215FDB38F004A99B7 /* default_p_tc.vsh */ = {isa = PBXFileReference; explicitFileType = sourcecode.glsl; fileEncoding = 4; path = default_p_tc.vsh; sourceTree = "<group>"; };
+		E0D9DB1415FDB39C004A99B7 /* default_p_tc.fsh */ = {isa = PBXFileReference; explicitFileType = sourcecode.glsl; fileEncoding = 4; path = default_p_tc.fsh; sourceTree = "<group>"; };
+		E0D9DB1615FDB5B9004A99B7 /* SolProgram.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = SolProgram.cpp; sourceTree = "<group>"; };
+		E0D9DB1815FDB5CF004A99B7 /* SolProgram.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = SolProgram.h; sourceTree = "<group>"; };
+		E0D9DB1D1605907B004A99B7 /* default_p_c.vsh */ = {isa = PBXFileReference; explicitFileType = sourcecode.glsl; fileEncoding = 4; path = default_p_c.vsh; sourceTree = "<group>"; };
+		E0D9DB1F16059088004A99B7 /* default_p_c.fsh */ = {isa = PBXFileReference; explicitFileType = sourcecode.glsl; fileEncoding = 4; path = default_p_c.fsh; sourceTree = "<group>"; };
+		E0D9DB2816059A0C004A99B7 /* particle.vsh */ = {isa = PBXFileReference; explicitFileType = sourcecode.glsl; fileEncoding = 4; path = particle.vsh; sourceTree = "<group>"; };
+		E0D9DB2A16059A19004A99B7 /* particle.fsh */ = {isa = PBXFileReference; explicitFileType = sourcecode.glsl; fileEncoding = 4; path = particle.fsh; sourceTree = "<group>"; };
+		E0E66A82177F774F00B02FBF /* stb_vorbis.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; path = stb_vorbis.c; sourceTree = "<group>"; };
+		E0E66A84177F776000B02FBF /* stb_vorbis.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = stb_vorbis.h; sourceTree = "<group>"; };
+		E0E66A86177F910800B02FBF /* SolBlur.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = SolBlur.cpp; sourceTree = "<group>"; };
+		E0E66A87177F910800B02FBF /* SolBlur.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SolBlur.h; sourceTree = "<group>"; };
+		E0E66A89177F910800B02FBF /* SolEffect.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SolEffect.h; sourceTree = "<group>"; };
+		E0E66A8A177F910800B02FBF /* SolFilter.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = SolFilter.cpp; sourceTree = "<group>"; };
+		E0E66A8B177F910800B02FBF /* SolFilter.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SolFilter.h; sourceTree = "<group>"; };
+		E0EA6C6F160C38D2003C9234 /* SolBufferObjects.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = SolBufferObjects.h; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		E036D12E142AA958000C440F /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				E036D136142AA958000C440F /* UIKit.framework in Frameworks */,
+				E036D138142AA958000C440F /* Foundation.framework in Frameworks */,
+				E036D13C142AA958000C440F /* QuartzCore.framework in Frameworks */,
+				E07961CB14B1367A00874D2A /* OpenAL.framework in Frameworks */,
+				E036D13E142AA958000C440F /* OpenGLES.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		E0020C981740AB0300D7BA14 /* blur_test */ = {
+			isa = PBXGroup;
+			children = (
+				E0020C991740AB1400D7BA14 /* BlurTest.cpp */,
+				E0020C9A1740AB1400D7BA14 /* BlurTest.h */,
+			);
+			path = blur_test;
+			sourceTree = "<group>";
+		};
+		E0020CA51744639900D7BA14 /* scene_test */ = {
+			isa = PBXGroup;
+			children = (
+				E0020CA6174463B300D7BA14 /* SceneTest.cpp */,
+				E0020CA7174463B300D7BA14 /* SceneTest.h */,
+			);
+			path = scene_test;
+			sourceTree = "<group>";
+		};
+		E00F80AC16647B8500597D3D /* touch_test */ = {
+			isa = PBXGroup;
+			children = (
+				E00F80AE16647B9700597D3D /* TouchTest.cpp */,
+				E00F80AF16647B9700597D3D /* TouchTest.h */,
+			);
+			path = touch_test;
+			sourceTree = "<group>";
+		};
+		E01A006B1673FF3700C964B2 /* animation_test */ = {
+			isa = PBXGroup;
+			children = (
+				E01A006C1673FF5500C964B2 /* AnimationTest.cpp */,
+				E01A006D1673FF5500C964B2 /* AnimationTest.h */,
+			);
+			path = animation_test;
+			sourceTree = "<group>";
+		};
+		E01A00721675545100C964B2 /* text_test */ = {
+			isa = PBXGroup;
+			children = (
+				E01A00731675545E00C964B2 /* TextTest.cpp */,
+				E01A00741675545E00C964B2 /* TextTest.h */,
+			);
+			path = text_test;
+			sourceTree = "<group>";
+		};
+		E027028417A9AFB20053F0A3 /* vorbis */ = {
+			isa = PBXGroup;
+			children = (
+				E027028517A9AFB20053F0A3 /* analysis.c */,
+				E027028617A9AFB20053F0A3 /* backends.h */,
+				E027028717A9AFB20053F0A3 /* bitrate.c */,
+				E027028817A9AFB20053F0A3 /* bitrate.h */,
+				E027028917A9AFB20053F0A3 /* bitwise.c */,
+				E027028A17A9AFB20053F0A3 /* block.c */,
+				E027028B17A9AFB20053F0A3 /* codebook.c */,
+				E027028C17A9AFB20053F0A3 /* codebook.h */,
+				E027028D17A9AFB20053F0A3 /* codec.h */,
+				E027028E17A9AFB20053F0A3 /* codec_internal.h */,
+				E027028F17A9AFB20053F0A3 /* envelope.c */,
+				E027029017A9AFB20053F0A3 /* envelope.h */,
+				E027029117A9AFB20053F0A3 /* floor0.c */,
+				E027029217A9AFB20053F0A3 /* floor1.c */,
+				E027029317A9AFB20053F0A3 /* framing.c */,
+				E027029417A9AFB20053F0A3 /* highlevel.h */,
+				E027029517A9AFB20053F0A3 /* info.c */,
+				E027029617A9AFB20053F0A3 /* lookup.c */,
+				E027029717A9AFB20053F0A3 /* lookup.h */,
+				E027029817A9AFB20053F0A3 /* lookup_data.h */,
+				E027029917A9AFB20053F0A3 /* lpc.c */,
+				E027029A17A9AFB20053F0A3 /* lpc.h */,
+				E027029B17A9AFB20053F0A3 /* lsp.c */,
+				E027029C17A9AFB20053F0A3 /* lsp.h */,
+				E027029D17A9AFB20053F0A3 /* mapping0.c */,
+				E027029E17A9AFB20053F0A3 /* masking.h */,
+				E027029F17A9AFB20053F0A3 /* mdct.c */,
+				E02702A017A9AFB20053F0A3 /* mdct.h */,
+				E02702A117A9AFB20053F0A3 /* misc.h */,
+				E02702A217A9AFB20053F0A3 /* ogg.h */,
+				E02702A317A9AFB20053F0A3 /* os.h */,
+				E02702A417A9AFB20053F0A3 /* os_types.h */,
+				E02702A517A9AFB20053F0A3 /* psy.c */,
+				E02702A617A9AFB20053F0A3 /* psy.h */,
+				E02702A717A9AFB20053F0A3 /* registry.c */,
+				E02702A817A9AFB20053F0A3 /* registry.h */,
+				E02702A917A9AFB20053F0A3 /* res0.c */,
+				E02702AA17A9AFB20053F0A3 /* scales.h */,
+				E02702AB17A9AFB20053F0A3 /* sharedbook.c */,
+				E02702AC17A9AFB20053F0A3 /* smallft.c */,
+				E02702AD17A9AFB20053F0A3 /* smallft.h */,
+				E02702AE17A9AFB20053F0A3 /* synthesis.c */,
+				E02702AF17A9AFB20053F0A3 /* vorbisenc.h */,
+				E02702B017A9AFB20053F0A3 /* vorbisfile.c */,
+				E02702B117A9AFB20053F0A3 /* vorbisfile.h */,
+				E02702B217A9AFB20053F0A3 /* window.c */,
+				E02702B317A9AFB20053F0A3 /* window.h */,
+			);
+			path = vorbis;
+			sourceTree = "<group>";
+		};
+		E036D126142AA958000C440F = {
+			isa = PBXGroup;
+			children = (
+				E0A7D76115F198EF009D8CC0 /* external */,
+				E08535AE1733404F0012447F /* resources */,
+				E0A7D6A815F198D6009D8CC0 /* src */,
+				E0A7D69F15F198CE009D8CC0 /* tests */,
+				E036D134142AA958000C440F /* Frameworks */,
+				E07FC5AE14A2DC4500C80901 /* Sol.app */,
+			);
+			sourceTree = "<group>";
+		};
+		E036D134142AA958000C440F /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				E036D135142AA958000C440F /* UIKit.framework */,
+				E036D137142AA958000C440F /* Foundation.framework */,
+				E036D13B142AA958000C440F /* QuartzCore.framework */,
+				E07961C714B1364E00874D2A /* OpenAL.framework */,
+				E036D13D142AA958000C440F /* OpenGLES.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		E05D3EAB172386A3000CBE53 /* action_test */ = {
+			isa = PBXGroup;
+			children = (
+				E05D3EAC172386B0000CBE53 /* ActionTest.cpp */,
+				E05D3EAD172386B0000CBE53 /* ActionTest.h */,
+			);
+			path = action_test;
+			sourceTree = "<group>";
+		};
+		E05D3EE61725724C000CBE53 /* textureatlas_test */ = {
+			isa = PBXGroup;
+			children = (
+				E05D3EE71725724D000CBE53 /* TextureAtlasTest.cpp */,
+				E05D3EE81725724D000CBE53 /* TextureAtlasTest.h */,
+			);
+			path = textureatlas_test;
+			sourceTree = "<group>";
+		};
+		E085359D173340430012447F /* iOS */ = {
+			isa = PBXGroup;
+			children = (
+				E085359E173340430012447F /* InfoPlist.strings */,
+				E08535A0173340430012447F /* main.m */,
+				68256ED019CA5301000CD701 /* Sol-Info.plist */,
+				68256ED219CA5314000CD701 /* Sol-Prefix.pch */,
+				E08535A3173340430012447F /* SolAppDelegate.h */,
+				E08535A4173340430012447F /* SolAppDelegate.mm */,
+				E08535A5173340430012447F /* SolGLView.h */,
+				E08535A6173340430012447F /* SolGLView.mm */,
+				E08535A7173340430012447F /* SolNative.mm */,
+				E0912F7518FA53910027CACD /* SolViewController.h */,
+				E0912F7618FA53910027CACD /* SolViewController.mm */,
+			);
+			path = iOS;
+			sourceTree = "<group>";
+		};
+		E08535AE1733404F0012447F /* resources */ = {
+			isa = PBXGroup;
+			children = (
+				E08535AF1733404F0012447F /* arial-rounded.ttf */,
+				E08535B11733404F0012447F /* background.ogg */,
+				E08535B21733404F0012447F /* Default-568h@2x.png */,
+				E08535B31733404F0012447F /* DownButton.png */,
+				E08535B41733404F0012447F /* DroidSans.ttf */,
+				E08535B51733404F0012447F /* Dude.png */,
+				E08535B61733404F0012447F /* Dude@2x.png */,
+				E08535B81733404F0012447F /* laserpowerup.ogg */,
+				E08535B91733404F0012447F /* LeftButton.png */,
+				E08535BA1733404F0012447F /* Moon.png */,
+				E08535BB1733404F0012447F /* Particle.png */,
+				E08535BC1733404F0012447F /* RightButton.png */,
+				E0020CA317432A1A00D7BA14 /* sol_logo.png */,
+				E08535BD1733404F0012447F /* SolSprites.json */,
+				E08535BE1733404F0012447F /* SolSprites.png */,
+				E08535BF1733404F0012447F /* SolSprites.tps */,
+				E08535C01733404F0012447F /* SolSprites.xml */,
+				E08535C11733404F0012447F /* Sun.png */,
+				E08535C21733404F0012447F /* UpButton.png */,
+			);
+			path = resources;
+			sourceTree = "<group>";
+		};
+		E087EA72178008ED002A663B /* filter_test */ = {
+			isa = PBXGroup;
+			children = (
+				E087EA73178008ED002A663B /* FilterTest.cpp */,
+				E087EA74178008ED002A663B /* FilterTest.h */,
+			);
+			path = filter_test;
+			sourceTree = "<group>";
+		};
+		E08D075D178379980041DFAC /* multitex_text */ = {
+			isa = PBXGroup;
+			children = (
+				E08D075E178379A80041DFAC /* MultitexTest.cpp */,
+				E08D075F178379A80041DFAC /* MultitexTest.h */,
+			);
+			path = multitex_text;
+			sourceTree = "<group>";
+		};
+		E0912F7B18FA667B0027CACD /* canvas_test */ = {
+			isa = PBXGroup;
+			children = (
+				E0912F7C18FA66870027CACD /* CanvasTest.cpp */,
+				E0912F7D18FA66870027CACD /* CanvasTest.h */,
+			);
+			path = canvas_test;
+			sourceTree = "<group>";
+		};
+		E0A05B05171BE216009177BD /* physics */ = {
+			isa = PBXGroup;
+			children = (
+				E02702D117A9B0330053F0A3 /* SolArbiter.cpp */,
+				E02702D217A9B0330053F0A3 /* SolArbiter.h */,
+				E0A05B06171BE216009177BD /* SolBody.cpp */,
+				E0A05B07171BE216009177BD /* SolBody.h */,
+				E0A05B08171BE216009177BD /* SolConstraint.cpp */,
+				E0A05B09171BE216009177BD /* SolConstraint.h */,
+				E0A05B1E171F68ED009177BD /* SolPhysicsScene.h */,
+				E0A05B0A171BE216009177BD /* SolShape.cpp */,
+				E0A05B0B171BE216009177BD /* SolShape.h */,
+				E0A05B15171CFFAD009177BD /* SolSpace.cpp */,
+				E0A05B0C171BE216009177BD /* SolSpace.h */,
+			);
+			path = physics;
+			sourceTree = "<group>";
+		};
+		E0A7D69F15F198CE009D8CC0 /* tests */ = {
+			isa = PBXGroup;
+			children = (
+				E09C865A17C9917B00BB7D86 /* testapp.cpp */,
+				E05D3EAB172386A3000CBE53 /* action_test */,
+				E01A006B1673FF3700C964B2 /* animation_test */,
+				E0C873D81654C93B00920A66 /* audio_test */,
+				E0020C981740AB0300D7BA14 /* blur_test */,
+				E0912F7B18FA667B0027CACD /* canvas_test */,
+				E087EA72178008ED002A663B /* filter_test */,
+				E08D075D178379980041DFAC /* multitex_text */,
+				E0A7D6A015F198CE009D8CC0 /* physics_test */,
+				E0020CA51744639900D7BA14 /* scene_test */,
+				E0A7D6A315F198CE009D8CC0 /* test */,
+				E01A00721675545100C964B2 /* text_test */,
+				E05D3EE61725724C000CBE53 /* textureatlas_test */,
+				E00F80AC16647B8500597D3D /* touch_test */,
+			);
+			path = tests;
+			sourceTree = "<group>";
+		};
+		E0A7D6A015F198CE009D8CC0 /* physics_test */ = {
+			isa = PBXGroup;
+			children = (
+				E0A7D6A115F198CE009D8CC0 /* PhysicsTest.cpp */,
+				E0A7D6A215F198CE009D8CC0 /* PhysicsTest.h */,
+			);
+			path = physics_test;
+			sourceTree = "<group>";
+		};
+		E0A7D6A315F198CE009D8CC0 /* test */ = {
+			isa = PBXGroup;
+			children = (
+				E0A7D6A415F198CE009D8CC0 /* Test.cpp */,
+				E0A7D6A515F198CE009D8CC0 /* Test.h */,
+			);
+			path = test;
+			sourceTree = "<group>";
+		};
+		E0A7D6A815F198D6009D8CC0 /* src */ = {
+			isa = PBXGroup;
+			children = (
+				E0A7D6A915F198D6009D8CC0 /* core */,
+				E0E66A85177F910800B02FBF /* effects */,
+				E0F9954818A49E67004FF3F8 /* gui */,
+				E085359D173340430012447F /* iOS */,
+				E0A05B05171BE216009177BD /* physics */,
+				E0D9DB1115FDB301004A99B7 /* shaders */,
+				E0A7D6F715F198D6009D8CC0 /* SolApplication.h */,
+				E05D3EA717221BFC000CBE53 /* SolConfig.h */,
+			);
+			path = src;
+			sourceTree = "<group>";
+		};
+		E0A7D6A915F198D6009D8CC0 /* core */ = {
+			isa = PBXGroup;
+			children = (
+				E0A7D6AA15F198D6009D8CC0 /* SolAABB.h */,
+				E05D3EA81723834C000CBE53 /* SolAction.cpp */,
+				E05D3EA91723834D000CBE53 /* SolAction.h */,
+				68256ED319CA546C000CD701 /* SolActionManager.cpp */,
+				68256ED419CA546C000CD701 /* SolActionManager.h */,
+				E0912F6A18FA517D0027CACD /* SolAdManager.cpp */,
+				E0912F6B18FA517D0027CACD /* SolAdManager.h */,
+				E01A00681672E33200C964B2 /* SolAnimatedSprite.cpp */,
+				E01A00691672E33300C964B2 /* SolAnimatedSprite.h */,
+				E0A05B18171E5F28009177BD /* SolAnimation.cpp */,
+				E01A00661672E00200C964B2 /* SolAnimation.h */,
+				E0A7D6B115F198D6009D8CC0 /* SolAudio.cpp */,
+				E0A7D6B215F198D6009D8CC0 /* SolAudio.h */,
+				E0020C96173EBAA500D7BA14 /* SolBufferObjects.cpp */,
+				E0EA6C6F160C38D2003C9234 /* SolBufferObjects.h */,
+				E0912F7818FA53F10027CACD /* SolCanvas.cpp */,
+				E0912F7918FA53F20027CACD /* SolCanvas.h */,
+				E02702D317A9B0BD0053F0A3 /* SolCircle.cpp */,
+				E02702D417A9B0BD0053F0A3 /* SolCircle.h */,
+				E0A7D6B515F198D6009D8CC0 /* SolColor.h */,
+				E0912F6C18FA518F0027CACD /* SolCounter.h */,
+				E0020CAC1749ECD700D7BA14 /* SolFile.cpp */,
+				E0020CAA1749E78D00D7BA14 /* SolFile.h */,
+				E0A7D6BA15F198D6009D8CC0 /* SolFileBuffer.h */,
+				E02CD5CF161BC5E8006F0C1A /* SolFont.cpp */,
+				E02CD5D0161BC5ED006F0C1A /* SolFont.h */,
+				E0A7D86715F59F76009D8CC0 /* SolGL.h */,
+				E0A7D6BB15F198D6009D8CC0 /* SolGradient.cpp */,
+				E0A7D6BC15F198D6009D8CC0 /* SolGradient.h */,
+				E0912F6D18FA51A80027CACD /* SolGradientBatch.cpp */,
+				E0912F6E18FA51A80027CACD /* SolGradientBatch.h */,
+				E0A7D6BD15F198D6009D8CC0 /* SolImage.cpp */,
+				E0A7D6BE15F198D6009D8CC0 /* SolImage.h */,
+				E0912F6618FA514A0027CACD /* SolInputManager.cpp */,
+				E0912F6718FA514A0027CACD /* SolInputManager.h */,
+				E0912F6818FA516B0027CACD /* SolIntersection.cpp */,
+				E0912F6918FA516B0027CACD /* SolIntersection.h */,
+				E0A7D6BF15F198D6009D8CC0 /* SolLabel.cpp */,
+				E0A7D6C015F198D6009D8CC0 /* SolLabel.h */,
+				E0912F6F18FA51DF0027CACD /* SolLine.cpp */,
+				E0912F7018FA51DF0027CACD /* SolLine.h */,
+				E0A7D6C315F198D6009D8CC0 /* SolManager.cpp */,
+				E0A7D6C415F198D6009D8CC0 /* SolManager.h */,
+				E02CD5D21620F919006F0C1A /* SolMatrix.cpp */,
+				E02CD5D31620F91F006F0C1A /* SolMatrix.h */,
+				E03D4C701783860900F12769 /* SolMultiSprite.cpp */,
+				E03D4C711783860900F12769 /* SolMultiSprite.h */,
+				E0A7D6C515F198D6009D8CC0 /* SolNative.h */,
+				E087EA8E17825626002A663B /* SolParticleSystem.cpp */,
+				E0A7D6C715F198D6009D8CC0 /* SolParticleSystem.h */,
+				E0D9DB1615FDB5B9004A99B7 /* SolProgram.cpp */,
+				E0D9DB1815FDB5CF004A99B7 /* SolProgram.h */,
+				E0BC8E691717BF780037FBBD /* SolQuad.cpp */,
+				E0A7D6C915F198D6009D8CC0 /* SolQuad.h */,
+				E0BC8E6B1717C17E0037FBBD /* SolRenderable.cpp */,
+				E0A7D6CB15F198D6009D8CC0 /* SolRenderable.h */,
+				E0020C94173EB9A900D7BA14 /* SolRenderComponents.cpp */,
+				E0AC0CB8160EA8860082A6CF /* SolRenderComponents.h */,
+				E0A7D6CE15F198D6009D8CC0 /* SolRenderer.cpp */,
+				E0A7D6CF15F198D6009D8CC0 /* SolRenderer.h */,
+				68256ED619CA5590000CD701 /* SolRenderObject.cpp */,
+				68256ED719CA5590000CD701 /* SolRenderObject.h */,
+				E03D4C73178399D100F12769 /* SolRenderTexture.cpp */,
+				E03D4C74178399D100F12769 /* SolRenderTexture.h */,
+				E0912F7118FA52150027CACD /* SolResourceManager.cpp */,
+				E0912F7218FA52150027CACD /* SolResourceManager.h */,
+				E0A05B1A171E64AA009177BD /* SolScene.cpp */,
+				E0A7D6D515F198D6009D8CC0 /* SolScene.h */,
+				E02CD5D81621598B006F0C1A /* SolSceneNode.cpp */,
+				E02CD5D916215991006F0C1A /* SolSceneNode.h */,
+				E0D9DB1015FDAC70004A99B7 /* SolShader.h */,
+				E0A7D6D615F198D6009D8CC0 /* SolSprite.cpp */,
+				E0A7D6D715F198D6009D8CC0 /* SolSprite.h */,
+				E01A006F16754ADF00C964B2 /* SolSpriteBatch.cpp */,
+				E04A3DA91640F1E30038ED28 /* SolSpriteBatch.h */,
+				E05D3EE31724F491000CBE53 /* SolTexture.cpp */,
+				E05D3EE41724F494000CBE53 /* SolTexture.h */,
+				E0A8515516617276003F71C5 /* SolTextureAtlas.cpp */,
+				E0A8515616617279003F71C5 /* SolTextureAtlas.h */,
+				E02581B21767C7120093520E /* SolTouch.h */,
+				E0A05B1C171E675D009177BD /* SolTouchable.cpp */,
+				E0A7D6DD15F198D6009D8CC0 /* SolTouchable.h */,
+				E0A7D6E815F198D6009D8CC0 /* SolUtil.h */,
+				E0A7D6E915F198D6009D8CC0 /* SolVec.h */,
+				E0A8515C16619284003F71C5 /* SolXML.h */,
+			);
+			path = core;
+			sourceTree = "<group>";
+		};
+		E0A7D76115F198EF009D8CC0 /* external */ = {
+			isa = PBXGroup;
+			children = (
+				E0A7D76215F198EF009D8CC0 /* chipmunk */,
+				E0A851501661723E003F71C5 /* rapidxml */,
+				E0A7D79E15F198EF009D8CC0 /* stb */,
+				E027028417A9AFB20053F0A3 /* vorbis */,
+			);
+			path = external;
+			sourceTree = "<group>";
+		};
+		E0A7D76215F198EF009D8CC0 /* chipmunk */ = {
+			isa = PBXGroup;
+			children = (
+				E0A7D76315F198EF009D8CC0 /* chipmunk.c */,
+				E0A7D76415F198EF009D8CC0 /* chipmunk.h */,
+				E0A7D76515F198EF009D8CC0 /* chipmunk_ffi.h */,
+				E0A7D76615F198EF009D8CC0 /* chipmunk_private.h */,
+				E0A7D76715F198EF009D8CC0 /* chipmunk_types.h */,
+				E0A7D76815F198EF009D8CC0 /* chipmunk_unsafe.h */,
+				E0A7D76915F198EF009D8CC0 /* constraints */,
+				E0A7D78115F198EF009D8CC0 /* cpArbiter.c */,
+				E0A7D78215F198EF009D8CC0 /* cpArbiter.h */,
+				E0A7D78315F198EF009D8CC0 /* cpArray.c */,
+				E0A7D78415F198EF009D8CC0 /* cpBB.c */,
+				E0A7D78515F198EF009D8CC0 /* cpBB.h */,
+				E0A7D78615F198EF009D8CC0 /* cpBBTree.c */,
+				E0A7D78715F198EF009D8CC0 /* cpBody.c */,
+				E0A7D78815F198EF009D8CC0 /* cpBody.h */,
+				E0A7D78915F198EF009D8CC0 /* cpCollision.c */,
+				E0A7D78A15F198EF009D8CC0 /* cpHashSet.c */,
+				E0A7D78B15F198EF009D8CC0 /* cpPolyShape.c */,
+				E0A7D78C15F198EF009D8CC0 /* cpPolyShape.h */,
+				E0A7D78D15F198EF009D8CC0 /* cpShape.c */,
+				E0A7D78E15F198EF009D8CC0 /* cpShape.h */,
+				E0A7D78F15F198EF009D8CC0 /* cpSpace.c */,
+				E0A7D79015F198EF009D8CC0 /* cpSpace.h */,
+				E0A7D79115F198EF009D8CC0 /* cpSpaceComponent.c */,
+				E0A7D79215F198EF009D8CC0 /* cpSpaceHash.c */,
+				E0A7D79315F198EF009D8CC0 /* cpSpaceQuery.c */,
+				E0A7D79415F198EF009D8CC0 /* cpSpaceStep.c */,
+				E0A7D79515F198EF009D8CC0 /* cpSpatialIndex.c */,
+				E0A7D79615F198EF009D8CC0 /* cpSpatialIndex.h */,
+				E0A7D79715F198EF009D8CC0 /* cpSweep1D.c */,
+				E0A7D79815F198EF009D8CC0 /* cpVect.c */,
+				E0A7D79915F198EF009D8CC0 /* cpVect.h */,
+				E0A7D79A15F198EF009D8CC0 /* prime.h */,
+			);
+			path = chipmunk;
+			sourceTree = "<group>";
+		};
+		E0A7D76915F198EF009D8CC0 /* constraints */ = {
+			isa = PBXGroup;
+			children = (
+				E0A7D76A15F198EF009D8CC0 /* cpConstraint.c */,
+				E0A7D76B15F198EF009D8CC0 /* cpConstraint.h */,
+				E0A7D76C15F198EF009D8CC0 /* cpDampedRotarySpring.c */,
+				E0A7D76D15F198EF009D8CC0 /* cpDampedRotarySpring.h */,
+				E0A7D76E15F198EF009D8CC0 /* cpDampedSpring.c */,
+				E0A7D76F15F198EF009D8CC0 /* cpDampedSpring.h */,
+				E0A7D77015F198EF009D8CC0 /* cpGearJoint.c */,
+				E0A7D77115F198EF009D8CC0 /* cpGearJoint.h */,
+				E0A7D77215F198EF009D8CC0 /* cpGrooveJoint.c */,
+				E0A7D77315F198EF009D8CC0 /* cpGrooveJoint.h */,
+				E0A7D77415F198EF009D8CC0 /* cpPinJoint.c */,
+				E0A7D77515F198EF009D8CC0 /* cpPinJoint.h */,
+				E0A7D77615F198EF009D8CC0 /* cpPivotJoint.c */,
+				E0A7D77715F198EF009D8CC0 /* cpPivotJoint.h */,
+				E0A7D77815F198EF009D8CC0 /* cpRatchetJoint.c */,
+				E0A7D77915F198EF009D8CC0 /* cpRatchetJoint.h */,
+				E0A7D77A15F198EF009D8CC0 /* cpRotaryLimitJoint.c */,
+				E0A7D77B15F198EF009D8CC0 /* cpRotaryLimitJoint.h */,
+				E0A7D77C15F198EF009D8CC0 /* cpSimpleMotor.c */,
+				E0A7D77D15F198EF009D8CC0 /* cpSimpleMotor.h */,
+				E0A7D77E15F198EF009D8CC0 /* cpSlideJoint.c */,
+				E0A7D77F15F198EF009D8CC0 /* cpSlideJoint.h */,
+				E0A7D78015F198EF009D8CC0 /* util.h */,
+			);
+			path = constraints;
+			sourceTree = "<group>";
+		};
+		E0A7D79E15F198EF009D8CC0 /* stb */ = {
+			isa = PBXGroup;
+			children = (
+				E0A7D79F15F198EF009D8CC0 /* stb_image.c */,
+				E0A7D7A015F198EF009D8CC0 /* stb_image.h */,
+				E0A7D7A115F198EF009D8CC0 /* stb_truetype.c */,
+				E0A7D7A215F198EF009D8CC0 /* stb_truetype.h */,
+				E0E66A82177F774F00B02FBF /* stb_vorbis.c */,
+				E0E66A84177F776000B02FBF /* stb_vorbis.h */,
+			);
+			path = stb;
+			sourceTree = "<group>";
+		};
+		E0A851501661723E003F71C5 /* rapidxml */ = {
+			isa = PBXGroup;
+			children = (
+				E0A851511661723E003F71C5 /* rapidxml.hpp */,
+				E0A851521661723E003F71C5 /* rapidxml_iterators.hpp */,
+				E0A851531661723E003F71C5 /* rapidxml_print.hpp */,
+				E0A851541661723E003F71C5 /* rapidxml_utils.hpp */,
+			);
+			path = rapidxml;
+			sourceTree = "<group>";
+		};
+		E0C873D81654C93B00920A66 /* audio_test */ = {
+			isa = PBXGroup;
+			children = (
+				E0C873D91654C94E00920A66 /* AudioTest.cpp */,
+				E0C873DA1654C94E00920A66 /* AudioTest.h */,
+			);
+			path = audio_test;
+			sourceTree = "<group>";
+		};
+		E0D9DB1115FDB301004A99B7 /* shaders */ = {
+			isa = PBXGroup;
+			children = (
+				E0020C9C1740B1B400D7BA14 /* hblur.vsh */,
+				E087EA7C1780E9CB002A663B /* vblur.vsh */,
+				E087EA7E1780E9D8002A663B /* blur.fsh */,
+				E02705B517AB1F510053F0A3 /* circle.fsh */,
+				E02702CC17A9B0020053F0A3 /* default_p.vsh */,
+				E02702CB17A9B0020053F0A3 /* default_p.fsh */,
+				E0D9DB1D1605907B004A99B7 /* default_p_c.vsh */,
+				E0D9DB1F16059088004A99B7 /* default_p_c.fsh */,
+				E0D9DB1215FDB38F004A99B7 /* default_p_tc.vsh */,
+				E0D9DB1415FDB39C004A99B7 /* default_p_tc.fsh */,
+				E02705BB17AB8CFA0053F0A3 /* default_p_tc_c.fsh */,
+				E02705BC17AB8CFC0053F0A3 /* default_p_tc_c.vsh */,
+				E087EA901782A6F6002A663B /* emboss.fsh */,
+				E087EA7617800990002A663B /* greyscale.fsh */,
+				E0020CD4174DA71000D7BA14 /* invert.fsh */,
+				E08D075B178378F20041DFAC /* multitex_multiply.fsh */,
+				E0D9DB2816059A0C004A99B7 /* particle.vsh */,
+				E0D9DB2A16059A19004A99B7 /* particle.fsh */,
+				E087EA8417821E29002A663B /* toon.fsh */,
+			);
+			path = shaders;
+			sourceTree = "<group>";
+		};
+		E0E66A85177F910800B02FBF /* effects */ = {
+			isa = PBXGroup;
+			children = (
+				E0E66A86177F910800B02FBF /* SolBlur.cpp */,
+				E0E66A87177F910800B02FBF /* SolBlur.h */,
+				E0E66A89177F910800B02FBF /* SolEffect.h */,
+				E0E66A8A177F910800B02FBF /* SolFilter.cpp */,
+				E0E66A8B177F910800B02FBF /* SolFilter.h */,
+			);
+			path = effects;
+			sourceTree = "<group>";
+		};
+		E0F9954818A49E67004FF3F8 /* gui */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = gui;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		E036D130142AA958000C440F /* Sol */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = E036D15D142AA958000C440F /* Build configuration list for PBXNativeTarget "Sol" */;
+			buildPhases = (
+				E036D12D142AA958000C440F /* Sources */,
+				E036D12E142AA958000C440F /* Frameworks */,
+				E036D12F142AA958000C440F /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = Sol;
+			productName = Sol;
+			productReference = E07FC5AE14A2DC4500C80901 /* Sol.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		E036D128142AA958000C440F /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0430;
+			};
+			buildConfigurationList = E036D12B142AA958000C440F /* Build configuration list for PBXProject "Sol" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = E036D126142AA958000C440F;
+			productRefGroup = E036D126142AA958000C440F;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				E036D130142AA958000C440F /* Sol */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		E036D12F142AA958000C440F /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				E02702CF17A9B0190053F0A3 /* default_p.fsh in Resources */,
+				E02702D017A9B0190053F0A3 /* default_p.vsh in Resources */,
+				E087EA921782A865002A663B /* emboss.fsh in Resources */,
+				E087EA8717821EC3002A663B /* toon.fsh in Resources */,
+				E087EA801780F190002A663B /* vblur.vsh in Resources */,
+				E087EA811780F190002A663B /* blur.fsh in Resources */,
+				E087EA7A178009A4002A663B /* greyscale.fsh in Resources */,
+				E02705C017AB8D160053F0A3 /* default_p_tc_c.vsh in Resources */,
+				E02705BF17AB8D140053F0A3 /* default_p_tc_c.fsh in Resources */,
+				E02705B717AB42310053F0A3 /* circle.fsh in Resources */,
+				E0020CD9174DA84C00D7BA14 /* invert.fsh in Resources */,
+				E0020C9E1740B1F500D7BA14 /* hblur.vsh in Resources */,
+				E0A85119166083ED003F71C5 /* default_p_c.vsh in Resources */,
+				E0A8511A166083ED003F71C5 /* default_p_c.fsh in Resources */,
+				E0A8511B166083ED003F71C5 /* default_p_tc.vsh in Resources */,
+				E0A8511C166083ED003F71C5 /* default_p_tc.fsh in Resources */,
+				E0A8511D166083ED003F71C5 /* particle.vsh in Resources */,
+				E0A8511E166083ED003F71C5 /* particle.fsh in Resources */,
+				E08535A8173340430012447F /* InfoPlist.strings in Resources */,
+				E08535C31733404F0012447F /* arial-rounded.ttf in Resources */,
+				E08535C51733404F0012447F /* background.ogg in Resources */,
+				E08535C61733404F0012447F /* Default-568h@2x.png in Resources */,
+				E08535C71733404F0012447F /* DownButton.png in Resources */,
+				68256ED119CA5301000CD701 /* Sol-Info.plist in Resources */,
+				E08535C81733404F0012447F /* DroidSans.ttf in Resources */,
+				E08535C91733404F0012447F /* Dude.png in Resources */,
+				E08535CA1733404F0012447F /* Dude@2x.png in Resources */,
+				E08535CC1733404F0012447F /* laserpowerup.ogg in Resources */,
+				E08535CD1733404F0012447F /* LeftButton.png in Resources */,
+				E08535CE1733404F0012447F /* Moon.png in Resources */,
+				E08535CF1733404F0012447F /* Particle.png in Resources */,
+				E08535D01733404F0012447F /* RightButton.png in Resources */,
+				E08D075C178378F20041DFAC /* multitex_multiply.fsh in Resources */,
+				E08535D11733404F0012447F /* SolSprites.json in Resources */,
+				E08535D21733404F0012447F /* SolSprites.png in Resources */,
+				E08535D31733404F0012447F /* SolSprites.tps in Resources */,
+				E08535D41733404F0012447F /* SolSprites.xml in Resources */,
+				E08535D51733404F0012447F /* Sun.png in Resources */,
+				E08535D61733404F0012447F /* UpButton.png in Resources */,
+				E0020CA417432A1B00D7BA14 /* sol_logo.png in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		E036D12D142AA958000C440F /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				E02CD5D1161BC622006F0C1A /* SolFont.cpp in Sources */,
+				E0A7D6A615F198CE009D8CC0 /* PhysicsTest.cpp in Sources */,
+				E0A7D6A715F198CE009D8CC0 /* Test.cpp in Sources */,
+				E0A7D70415F198D6009D8CC0 /* SolAudio.cpp in Sources */,
+				E0A7D70715F198D6009D8CC0 /* SolGradient.cpp in Sources */,
+				E0A7D70815F198D6009D8CC0 /* SolImage.cpp in Sources */,
+				E0A7D70915F198D6009D8CC0 /* SolLabel.cpp in Sources */,
+				E0A7D70B15F198D6009D8CC0 /* SolManager.cpp in Sources */,
+				E0A7D71015F198D6009D8CC0 /* SolRenderer.cpp in Sources */,
+				E0A7D71415F198D6009D8CC0 /* SolSprite.cpp in Sources */,
+				E0A7D81115F198F0009D8CC0 /* chipmunk.c in Sources */,
+				E0A7D81215F198F0009D8CC0 /* cpConstraint.c in Sources */,
+				E0A7D81315F198F0009D8CC0 /* cpDampedRotarySpring.c in Sources */,
+				E0A7D81415F198F0009D8CC0 /* cpDampedSpring.c in Sources */,
+				E0912F7718FA53A30027CACD /* SolViewController.mm in Sources */,
+				E0912F7418FA533E0027CACD /* SolInputManager.cpp in Sources */,
+				E0A7D81515F198F0009D8CC0 /* cpGearJoint.c in Sources */,
+				E0A7D81615F198F0009D8CC0 /* cpGrooveJoint.c in Sources */,
+				E0A7D81715F198F0009D8CC0 /* cpPinJoint.c in Sources */,
+				E0A7D81815F198F0009D8CC0 /* cpPivotJoint.c in Sources */,
+				E0A7D81915F198F0009D8CC0 /* cpRatchetJoint.c in Sources */,
+				E0A7D81A15F198F0009D8CC0 /* cpRotaryLimitJoint.c in Sources */,
+				E0A7D81B15F198F0009D8CC0 /* cpSimpleMotor.c in Sources */,
+				E0A7D81C15F198F0009D8CC0 /* cpSlideJoint.c in Sources */,
+				E0A7D81D15F198F0009D8CC0 /* cpArbiter.c in Sources */,
+				E0A7D81E15F198F0009D8CC0 /* cpArray.c in Sources */,
+				E0A7D81F15F198F0009D8CC0 /* cpBB.c in Sources */,
+				E0A7D82015F198F0009D8CC0 /* cpBBTree.c in Sources */,
+				E0A7D82115F198F0009D8CC0 /* cpBody.c in Sources */,
+				E0A7D82215F198F0009D8CC0 /* cpCollision.c in Sources */,
+				E0A7D82315F198F0009D8CC0 /* cpHashSet.c in Sources */,
+				E0A7D82415F198F0009D8CC0 /* cpPolyShape.c in Sources */,
+				E0A7D82515F198F0009D8CC0 /* cpShape.c in Sources */,
+				E0A7D82615F198F0009D8CC0 /* cpSpace.c in Sources */,
+				E0A7D82715F198F0009D8CC0 /* cpSpaceComponent.c in Sources */,
+				E0A7D82815F198F0009D8CC0 /* cpSpaceHash.c in Sources */,
+				E0A7D82915F198F0009D8CC0 /* cpSpaceQuery.c in Sources */,
+				E0A7D82A15F198F0009D8CC0 /* cpSpaceStep.c in Sources */,
+				E0A7D82B15F198F0009D8CC0 /* cpSpatialIndex.c in Sources */,
+				E0A7D82C15F198F0009D8CC0 /* cpSweep1D.c in Sources */,
+				E0A7D82D15F198F0009D8CC0 /* cpVect.c in Sources */,
+				E0A7D82F15F198F0009D8CC0 /* stb_image.c in Sources */,
+				E0A7D83015F198F0009D8CC0 /* stb_truetype.c in Sources */,
+				E0D9DB1715FDB5BD004A99B7 /* SolProgram.cpp in Sources */,
+				E02CD5D41620F925006F0C1A /* SolMatrix.cpp in Sources */,
+				E02CD5DA16215997006F0C1A /* SolSceneNode.cpp in Sources */,
+				68256ED819CA5590000CD701 /* SolRenderObject.cpp in Sources */,
+				E0C873DB1654C94E00920A66 /* AudioTest.cpp in Sources */,
+				E0A851571661727C003F71C5 /* SolTextureAtlas.cpp in Sources */,
+				E00F80B016647B9700597D3D /* TouchTest.cpp in Sources */,
+				E01A006A1672E33300C964B2 /* SolAnimatedSprite.cpp in Sources */,
+				E01A006E1673FF5500C964B2 /* AnimationTest.cpp in Sources */,
+				E01A007016754AE000C964B2 /* SolSpriteBatch.cpp in Sources */,
+				E01A00751675545E00C964B2 /* TextTest.cpp in Sources */,
+				E0BC8E6A1717BF790037FBBD /* SolQuad.cpp in Sources */,
+				E0BC8E6C1717C17F0037FBBD /* SolRenderable.cpp in Sources */,
+				E0A05B0D171BE216009177BD /* SolBody.cpp in Sources */,
+				E0A05B0E171BE216009177BD /* SolConstraint.cpp in Sources */,
+				E0A05B0F171BE216009177BD /* SolShape.cpp in Sources */,
+				E0A05B16171CFFAD009177BD /* SolSpace.cpp in Sources */,
+				E0A05B19171E5F2E009177BD /* SolAnimation.cpp in Sources */,
+				E0A05B1B171E64B2009177BD /* SolScene.cpp in Sources */,
+				E0A05B1D171E6762009177BD /* SolTouchable.cpp in Sources */,
+				E05D3EAA1723834D000CBE53 /* SolAction.cpp in Sources */,
+				E05D3EAE172386B0000CBE53 /* ActionTest.cpp in Sources */,
+				E05D3EE51724F497000CBE53 /* SolTexture.cpp in Sources */,
+				E05D3EE91725724D000CBE53 /* TextureAtlasTest.cpp in Sources */,
+				E08535A9173340430012447F /* main.m in Sources */,
+				E08535AB173340430012447F /* SolAppDelegate.mm in Sources */,
+				E08535AC173340430012447F /* SolGLView.mm in Sources */,
+				E08535AD173340430012447F /* SolNative.mm in Sources */,
+				E0020C95173EB9AA00D7BA14 /* SolRenderComponents.cpp in Sources */,
+				E0020C97173EBAAA00D7BA14 /* SolBufferObjects.cpp in Sources */,
+				E02702D517A9B2BF0053F0A3 /* SolCircle.cpp in Sources */,
+				E0020C9B1740AB1400D7BA14 /* BlurTest.cpp in Sources */,
+				E0020CA8174463B300D7BA14 /* SceneTest.cpp in Sources */,
+				E0020CAD1749ECDF00D7BA14 /* SolFile.cpp in Sources */,
+				68256ED519CA546C000CD701 /* SolActionManager.cpp in Sources */,
+				E0E66A83177F774F00B02FBF /* stb_vorbis.c in Sources */,
+				E0E66A8C177F910800B02FBF /* SolBlur.cpp in Sources */,
+				E0E66A8E177F910800B02FBF /* SolFilter.cpp in Sources */,
+				E087EA75178008ED002A663B /* FilterTest.cpp in Sources */,
+				E087EA8F17825626002A663B /* SolParticleSystem.cpp in Sources */,
+				E08D0760178379A80041DFAC /* MultitexTest.cpp in Sources */,
+				E03D4C721783860900F12769 /* SolMultiSprite.cpp in Sources */,
+				E03D4C75178399D100F12769 /* SolRenderTexture.cpp in Sources */,
+				E02702B417A9AFB20053F0A3 /* analysis.c in Sources */,
+				E02702B517A9AFB20053F0A3 /* bitrate.c in Sources */,
+				E02702B617A9AFB20053F0A3 /* bitwise.c in Sources */,
+				E02702B717A9AFB20053F0A3 /* block.c in Sources */,
+				E02702B817A9AFB20053F0A3 /* codebook.c in Sources */,
+				E02702B917A9AFB20053F0A3 /* envelope.c in Sources */,
+				E02702BA17A9AFB20053F0A3 /* floor0.c in Sources */,
+				E02702BB17A9AFB20053F0A3 /* floor1.c in Sources */,
+				E02702BC17A9AFB20053F0A3 /* framing.c in Sources */,
+				E02702BD17A9AFB20053F0A3 /* info.c in Sources */,
+				E02702BE17A9AFB20053F0A3 /* lookup.c in Sources */,
+				E02702BF17A9AFB20053F0A3 /* lpc.c in Sources */,
+				E02702C017A9AFB20053F0A3 /* lsp.c in Sources */,
+				E02702C117A9AFB20053F0A3 /* mapping0.c in Sources */,
+				E02702C217A9AFB20053F0A3 /* mdct.c in Sources */,
+				E02702C317A9AFB20053F0A3 /* psy.c in Sources */,
+				E02702C417A9AFB20053F0A3 /* registry.c in Sources */,
+				E02702C517A9AFB20053F0A3 /* res0.c in Sources */,
+				E02702C617A9AFB20053F0A3 /* sharedbook.c in Sources */,
+				E02702C717A9AFB20053F0A3 /* smallft.c in Sources */,
+				E02702C817A9AFB20053F0A3 /* synthesis.c in Sources */,
+				E02702C917A9AFB20053F0A3 /* vorbisfile.c in Sources */,
+				E02702CA17A9AFB20053F0A3 /* window.c in Sources */,
+				E09C865B17C9917B00BB7D86 /* testapp.cpp in Sources */,
+				E0912F7318FA532B0027CACD /* SolResourceManager.cpp in Sources */,
+				E0912F7A18FA53F20027CACD /* SolCanvas.cpp in Sources */,
+				E0912F7E18FA66870027CACD /* CanvasTest.cpp in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		E085359E173340430012447F /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				E085359F173340430012447F /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		E036D15B142AA958000C440F /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = "$(ARCHS_STANDARD_32_BIT)";
+				CLANG_CXX_LANGUAGE_STANDARD = "c++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CODE_SIGN_IDENTITY = "iPhone Developer: Jean F Boisver Boisvert (X7SNB5LG35)";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer: Jean F Boisver Boisvert (X7SNB5LG35)";
+				COMPRESS_PNG_FILES = NO;
+				COPY_PHASE_STRIP = YES;
+				GCC_C_LANGUAGE_STANDARD = "compiler-default";
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_ENABLE_CPP_EXCEPTIONS = NO;
+				GCC_ENABLE_CPP_RTTI = NO;
+				GCC_ENABLE_OBJC_EXCEPTIONS = NO;
+				GCC_INPUT_FILETYPE = automatic;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREFIX_HEADER = "${PROJECT_DIR}/src/iOS/Sol-Prefix.pch";
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_PREPROCESSOR_DEFINITIONS_NOT_USED_IN_PRECOMPS = "";
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_VERSION = "";
+				GCC_WARN_ABOUT_MISSING_PROTOTYPES = NO;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				HEADER_SEARCH_PATHS = "";
+				INFOPLIST_FILE = "${PROJECT_DIR}/src/iOS/Sol-Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 6.1;
+				LIBRARY_SEARCH_PATHS = "";
+				ONLY_ACTIVE_ARCH = NO;
+				OTHER_CFLAGS = "";
+				PROVISIONING_PROFILE = "8AB95FD2-A9B2-4781-A4C9-E4794080ACF3";
+				"PROVISIONING_PROFILE[sdk=iphoneos*]" = "091E093E-D850-4B8F-AC2E-E2A24B5DA3BE";
+				SDKROOT = iphoneos;
+				VALID_ARCHS = "armv6 armv7 i386";
+			};
+			name = Debug;
+		};
+		E036D15C142AA958000C440F /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = "$(ARCHS_STANDARD_32_BIT)";
+				CLANG_CXX_LANGUAGE_STANDARD = "c++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CODE_SIGN_IDENTITY = "iPhone Developer: Jean F Boisver Boisvert (X7SNB5LG35)";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer: Jean F Boisver Boisvert (X7SNB5LG35)";
+				COMPRESS_PNG_FILES = NO;
+				COPY_PHASE_STRIP = YES;
+				GCC_C_LANGUAGE_STANDARD = "compiler-default";
+				GCC_ENABLE_CPP_EXCEPTIONS = NO;
+				GCC_ENABLE_CPP_RTTI = NO;
+				GCC_ENABLE_OBJC_EXCEPTIONS = NO;
+				GCC_INPUT_FILETYPE = automatic;
+				GCC_PREFIX_HEADER = "${PROJECT_DIR}/src/iOS/Sol-Prefix.pch";
+				GCC_PREPROCESSOR_DEFINITIONS_NOT_USED_IN_PRECOMPS = "";
+				GCC_VERSION = "";
+				GCC_WARN_ABOUT_MISSING_PROTOTYPES = NO;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				HEADER_SEARCH_PATHS = "";
+				INFOPLIST_FILE = "${PROJECT_DIR}/src/iOS/Sol-Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 6.1;
+				LIBRARY_SEARCH_PATHS = "";
+				ONLY_ACTIVE_ARCH = NO;
+				OTHER_CFLAGS = (
+					"-DNS_BLOCK_ASSERTIONS=1",
+					"-DNDEBUG=1",
+				);
+				PROVISIONING_PROFILE = "8AB95FD2-A9B2-4781-A4C9-E4794080ACF3";
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+				VALID_ARCHS = "armv6 armv7 i386";
+			};
+			name = Release;
+		};
+		E036D15E142AA958000C440F /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = "$(ARCHS_STANDARD_32_BIT)";
+				CLANG_CXX_LANGUAGE_STANDARD = "c++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer: Garrett Thomas (D4Q3G8ER8B)";
+				COMPRESS_PNG_FILES = NO;
+				GCC_C_LANGUAGE_STANDARD = "compiler-default";
+				GCC_ENABLE_CPP_EXCEPTIONS = NO;
+				GCC_ENABLE_CPP_RTTI = NO;
+				GCC_ENABLE_OBJC_EXCEPTIONS = NO;
+				GCC_INPUT_FILETYPE = automatic;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "${PROJECT_DIR}/src/iOS/Sol-Prefix.pch";
+				GCC_PREPROCESSOR_DEFINITIONS_NOT_USED_IN_PRECOMPS = "";
+				GCC_THUMB_SUPPORT = NO;
+				"GCC_THUMB_SUPPORT[arch=armv6]" = NO;
+				"GCC_THUMB_SUPPORT[arch=armv7]" = NO;
+				GCC_VERSION = "";
+				HEADER_SEARCH_PATHS = (
+					"${PROJECT_DIR}/external/chipmunk",
+					"${PROJECT_DIR}/external/angelscript",
+				);
+				INFOPLIST_FILE = "${PROJECT_DIR}/src/iOS/Sol-Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 6.1;
+				LIBRARY_SEARCH_PATHS = "";
+				ONLY_ACTIVE_ARCH = NO;
+				OTHER_CFLAGS = "";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE = "";
+				"PROVISIONING_PROFILE[sdk=iphoneos*]" = "34012F33-B6D5-453C-8394-78C19D621370";
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				USER_HEADER_SEARCH_PATHS = "";
+				VALID_ARCHS = "armv6 armv7 i386";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Debug;
+		};
+		E036D15F142AA958000C440F /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = "$(ARCHS_STANDARD_32_BIT)";
+				CLANG_CXX_LANGUAGE_STANDARD = "c++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CODE_SIGN_IDENTITY = "iPhone Distribution";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Distribution";
+				COMPRESS_PNG_FILES = NO;
+				GCC_C_LANGUAGE_STANDARD = "compiler-default";
+				GCC_ENABLE_CPP_EXCEPTIONS = NO;
+				GCC_ENABLE_CPP_RTTI = NO;
+				GCC_ENABLE_OBJC_EXCEPTIONS = NO;
+				GCC_INPUT_FILETYPE = automatic;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "${PROJECT_DIR}/src/iOS/Sol-Prefix.pch";
+				GCC_PREPROCESSOR_DEFINITIONS_NOT_USED_IN_PRECOMPS = "";
+				GCC_THUMB_SUPPORT = NO;
+				"GCC_THUMB_SUPPORT[arch=armv6]" = NO;
+				"GCC_THUMB_SUPPORT[arch=armv7]" = NO;
+				GCC_VERSION = "";
+				HEADER_SEARCH_PATHS = (
+					"${PROJECT_DIR}/external/chipmunk",
+					"${PROJECT_DIR}/external/angelscript",
+				);
+				INFOPLIST_FILE = "${PROJECT_DIR}/src/iOS/Sol-Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 6.1;
+				LIBRARY_SEARCH_PATHS = "";
+				ONLY_ACTIVE_ARCH = NO;
+				OTHER_CFLAGS = "-DNS_BLOCK_ASSERTIONS=1";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE = "";
+				"PROVISIONING_PROFILE[sdk=iphoneos*]" = "";
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				USER_HEADER_SEARCH_PATHS = "";
+				VALID_ARCHS = "armv6 armv7 i386";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		E036D12B142AA958000C440F /* Build configuration list for PBXProject "Sol" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				E036D15B142AA958000C440F /* Debug */,
+				E036D15C142AA958000C440F /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		E036D15D142AA958000C440F /* Build configuration list for PBXNativeTarget "Sol" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				E036D15E142AA958000C440F /* Debug */,
+				E036D15F142AA958000C440F /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = E036D128142AA958000C440F /* Project object */;
+}
