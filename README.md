@@ -3,7 +3,7 @@ Welcome to Sol-Framework!
 
 <h4>Sol is a C++ framework that eases the creation of high-performance 2D games for iOS.</h4>
 
-<b>PLEASE NOTE<b>: This project is still under heavy development and may change significantly between releases.
+<b>PLEASE NOTE<b>: This project is still under development and may change significantly between releases.
 
 It is a hobby project for my own pleasure and learning experience, so unless some kind soul volunteers to help out, updates will be made on my own schedule. I wrote this framework from scratch and by myself (except for the 3rd party libraries of course), so there are probably a number of bugs and issues. Suggestions and contributions are welcome! There are comments in the source to explain some things, but I am currently in the process of adding actual documentation and example code.
 
